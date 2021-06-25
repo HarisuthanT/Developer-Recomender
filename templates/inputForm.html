@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Developer Recommender</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="row vh-100 justify-content-center align-items-center">
+      <div class="col-md-12">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+          <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <form action="/developer" method="post">
+
+              <div class="form-group">
+                <h1>Developer Recommender</h1>
+              </div>
+
+              <!-- <div class="form-group">
+                <input type="text" placeholder="Enter URL" class="form-control" id="URL" name="URL"
+                  placeholder="URl">
+              </div> -->
+
+              <div class="form-group">
+                <input type="text" placeholder="Enter issue title" class="form-control" id="issue-title" name="issue"
+                  placeholder="Issue">
+              </div>
+
+              <!-- <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter Date" id="issue-time" name="time"
+                  placeholder="Time">
+              </div> -->
+
+              <div class="form-group">
+                <button class="btn btn-primary" type="button" id="recommendation-btn">Recommend</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row" id="recommendation-table">
+      <div class="col-md-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <td>Username</td>
+              <td>Match Score</td>
+              <td>Github Link</td>
+              <td>Number of Push</td>
+              <td>Active Time</td>
+              <td>online_time</td>
+              <td>similarity</td>
+            </tr>
+          </thead>
+          <tbody id="recommendation-table-content">
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+  <script>
+    async function getDeveloper(issue, time) {
+      const postData = { issue, time }
+      const response = await fetch("/developer",
+        { headers: { "Content-Type": "application/json" }, method: "POST", body: JSON.stringify(postData) })
+      const result = await response.json()
+      console.log(`Result`);
+
+      console.log(result);
+
+      generateTable(result)
+    }
+
+    function generateTable(result) {
+      $("#recommendation-table-content").html("")
+      const trHTML = result.map(x => {
+
+        const html = `
+        <tr>
+          <td>${x.username}</td>
+            <td>${x.match_score}</td>
+            <td>https://github.com/${x.username.toLowerCase()}</td>
+            <td>${x.push_count}</td>
+            <td>${x.is_available}</td>
+            <td>${x.online_time}</td>
+            <td>${x.similarity}</td>
+        </tr>
+        
+        `
+
+        return html
+
+      });
+      console.log(trHTML);
+
+      $("#recommendation-table-content").html(trHTML.join(" "))
+      $("#recommendation-table-content").scroll(function () {
+        // $("#log").append("<div>Handler for .scroll() called.</div>");
+        $("#recommendation-table-content").html(trHTML.join(" "))
+      });
+
+      // $()
+
+    }
+
+    function get_current_time(){
+    let time =  new Date().toLocaleTimeString()
+    let time_split = time.split(" ")
+    if(time_split.length >1){
+        return time_split[0]
+    }else{
+        return time
+    }
+}
+    $(document).on("click", "#recommendation-btn", function () {
+
+      const issue = $("#issue-title").val()
+      //const time = $("#issue-time").val()
+      const time = get_current_time()
+      console.log(time)
+      getDeveloper(issue, time)
+
+    });
+
+  </script>
+</body>
+
+</html>

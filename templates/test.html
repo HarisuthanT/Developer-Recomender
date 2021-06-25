@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for output in out %}
+<p>username: {{output['username']}}</p>
+<p>online_time: {{output['online_time']}}</p>
+<p>push_count: {{output['push_count']}}</p>
+<p>is_available: {{output['is_available']}}</p>
+<p>similarity: {{output['similarity']}}</p>
+<p>match_score: {{output['match_score']}}</p>
+{% endfor %}
+</body>
+</html>

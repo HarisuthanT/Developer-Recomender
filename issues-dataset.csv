@@ -1,0 +1,1355 @@
+user,updated_at,created_at,closed_at,issue_title,issue_number
+el5846,2020-04-12T04:57:22Z,2020-04-12T01:14:29Z,2020-04-12T04:57:22Z,doc: updated directory entry information,32791
+juanarbol,2020-04-12T00:53:30Z,2020-04-12T00:09:36Z,,lib: expose performance interface to global,32790
+cjihrig,2020-04-11T22:03:05Z,2020-04-11T20:09:46Z,,http: return this from IncomingMessage#destroy(),32789
+cjihrig,2020-04-11T22:08:47Z,2020-04-11T19:20:30Z,,doc: add transform stream destroy() return value,32788
+addaleax,2020-04-12T02:22:54Z,2020-04-11T18:54:04Z,,build: add configure flag to build V8 with DCHECKs,32787
+rickyes,2020-04-12T03:21:43Z,2020-04-11T18:12:52Z,,tls: connect supports highWaterMark option,32786
+lirantal,2020-04-11T14:20:44Z,2020-04-11T14:03:12Z,,doc: improve WHATWG url constructor code example,32782
+thunderol,2020-04-11T12:16:47Z,2020-04-11T11:31:19Z,,highWaterMark option is ignored in HTTPs request stream,32781
+ronag,2020-04-12T00:21:08Z,2020-04-11T11:21:46Z,,stream: fix _final and 'prefinish' timing,32780
+JesuHrz,2020-04-11T18:58:59Z,2020-04-11T04:41:22Z,,src: removes unused v8::Integer and v8::Array namespace,32779
+jasnell,2020-04-11T19:24:09Z,2020-04-11T03:21:53Z,,src: add AliasedStruct utility,32778
+mmarchini,2020-04-11T19:33:33Z,2020-04-11T01:41:53Z,,build: re-enable ASAN Action using clang,32776
+mmarchini,2020-04-11T06:16:06Z,2020-04-11T01:19:32Z,,New label suggestion: `ci-actions`,32775
+mmarchini,2020-04-11T13:37:51Z,2020-04-10T22:05:15Z,,[V8 canary] test: add required flag to FinalizationGroup test,32773
+LongTengDao,2020-04-10T21:04:53Z,2020-04-10T21:01:38Z,,"IncommingMessage extends Readable, but it's destroy method not return this",32772
+edsadr,2020-04-10T21:21:44Z,2020-04-10T20:06:42Z,,test:  better error validations for event-capture,32771
+Flarna,2020-04-11T22:23:50Z,2020-04-10T18:39:24Z,,buffer: add type check in bidirectionalIndexOf,32770
+edsadr,2020-04-11T20:52:14Z,2020-04-10T18:09:49Z,,test: refactor events  tests for invalid listeners,32769
+BethGriggs,2020-04-10T21:28:26Z,2020-04-10T17:10:36Z,,2020-04-10 Node.js v10.20.1 'Dubnium' (LTS) Release,32768
+ronag,2020-04-10T18:55:34Z,2020-04-10T17:03:35Z,,doc: add link to code ide configs,32767
+HarshithaKP,2020-04-11T05:21:22Z,2020-04-10T16:25:55Z,,test: elevate common http sequences to common,32766
+ArchangeGabriel,2020-04-10T16:17:48Z,2020-04-10T16:17:48Z,,Erbium: test regression in tarball,32765
+ronag,2020-04-12T00:22:01Z,2020-04-10T15:19:04Z,,stream: simplify Transform stream implementation,32763
+addaleax,2020-04-11T21:43:49Z,2020-04-10T14:15:14Z,,src: include Environment in snapshot,32761
+addaleax,2020-04-11T04:01:35Z,2020-04-10T11:08:26Z,,tls: provide default cipher list from command line,32760
+addaleax,2020-04-10T14:33:23Z,2020-04-10T10:46:39Z,,buffer: mark pool ArrayBuffer as untransferable,32759
+rickyes,2020-04-11T05:33:19Z,2020-04-10T09:20:36Z,,lib: replace charCodeAt with fixed Unicode,32758
+puzpuzpuz,2020-04-10T19:57:38Z,2020-04-10T08:28:28Z,,doc: improve AsyncLocalStorage sample,32757
+gabrielschulhof,2020-04-10T19:02:23Z,2020-04-10T06:01:52Z,,v10.20.0 N-API headers as shipped in the headers tarball disagree with the headers as tagged,32755
+zyscoder,2020-04-10T10:50:30Z,2020-04-10T04:03:17Z,,'buffer.Buffer.prototype.lastIndexOf' results in an abort,32753
+daguej,2020-04-10T22:10:25Z,2020-04-10T03:37:51Z,,Cannot construct new Buffer in worker thread after transferring buffer out,32752
+julianduque,2020-04-10T19:53:54Z,2020-04-10T02:53:58Z,,test: cover node entry type in perf_hooks,32751
+zyscoder,2020-04-10T11:20:01Z,2020-04-10T02:53:29Z,,process.setuid results in an abort,32750
+juanarbol,2020-04-11T22:25:42Z,2020-04-10T02:27:47Z,,src: remove unused v8 Array namespace,32749
+zyscoder,2020-04-10T04:37:24Z,2020-04-10T02:25:16Z,,"'crypto.createDiffieHellman(prime: string, prime_encoding: HexBase64Latin1Encoding)' results in an abort",32748
+zyscoder,2020-04-10T02:03:08Z,2020-04-10T02:03:08Z,,'zlib.gzip' results in an abort,32747
+addaleax,2020-04-10T11:43:05Z,2020-04-09T16:52:37Z,,worker: fix type check in receiveMessageOnPort,32745
+rosaxny,2020-04-11T03:59:21Z,2020-04-09T16:28:55Z,,util: change default value of `maxStringLength` to 10000,32744
+zyscoder,2020-04-09T16:38:40Z,2020-04-09T16:02:28Z,,'worker_threads.receiveMessageOnPort' results in an abort,32742
+zyscoder,2020-04-12T05:40:30Z,2020-04-09T15:55:38Z,,process._debugProcess results in an abort,32741
+josephg,2020-04-09T12:50:05Z,2020-04-09T01:04:39Z,,Node 13 on MacOS cannot dyld to /usr/local/lib,32740
+bnoordhuis,2020-04-11T06:17:11Z,2020-04-09T10:28:59Z,,crypto: reject non-int32 values in DiffieHellman(),32739
+Lancern,2020-04-09T10:09:32Z,2020-04-09T08:24:09Z,,`crypto.createDiffieHellman` results in an abort,32738
+gireeshpunathil,2020-04-09T09:56:01Z,2020-04-09T02:08:18Z,,doc: elevate diagnostic report to tier1,32732
+0807Jpatel,2020-04-11T22:53:43Z,2020-04-09T01:29:02Z,,http.createServer highwatermark config,32731
+JesuHrz,2020-04-09T12:05:35Z,2020-04-08T21:04:40Z,,test: replace equal with strictEqual,32727
+mhdawson,2020-04-08T20:29:37Z,2020-04-08T20:24:22Z,,doc: improve consistency in usage of NULL,32726
+AndreaRibuoli,2020-04-09T12:42:43Z,2020-04-08T19:38:36Z,,IBM i PASE access to os.networkInterfaces() fails in v12.16.1 (works in v10.19.0),32725
+mhdawson,2020-04-08T16:19:00Z,2020-04-08T15:41:08Z,,doc: updated guidance for n-api changes,32721
+facorreia,2020-04-09T19:43:08Z,2020-04-08T13:44:34Z,,Build fails when cross compiling v12.x host x86-64 to arm,32717
+targos,2020-04-11T04:04:19Z,2020-04-08T05:37:39Z,,build: output dots instead of tap in GitHub actions,32714
+yashLadha,2020-04-08T13:40:45Z,2020-04-08T04:55:59Z,,Optional Memory benchmark flag in benchmarking scripts,32713
+mikolaj-leszczynski,2020-04-08T13:38:44Z,2020-04-07T21:39:19Z,,doc: readable events and their emissions,32709
+serge1peshcoff,2020-04-07T20:03:14Z,2020-04-07T16:53:47Z,,"""await is only valid in async function"" when trying to use await in a for loop with TLA support",32708
+mafintosh,2020-04-07T17:36:43Z,2020-04-07T15:56:52Z,,Document allowHalfOpen in net.connect,32707
+rickyes,2020-04-08T11:33:31Z,2020-04-07T15:45:49Z,,timer: optimize timer initialization,32706
+jasnell,2020-04-08T15:53:58Z,2020-04-07T13:51:55Z,,repl: repl command preview interacts badly with `--trace-sync-io`,32705
+HarshithaKP,2020-04-10T14:42:54Z,2020-04-07T11:39:55Z,,doc: document `buffer.from` returns internal pool buffer,32703
+Himself65,2020-04-08T06:10:34Z,2020-04-07T11:21:18Z,,benchmark: add a perf_hooks benchmark,32702
+cecchi,2020-04-07T19:47:44Z,2020-04-07T05:13:41Z,,doc: remove warning from `response.writeHead`,32700
+ryzokuken,2020-04-08T14:09:02Z,2020-04-07T01:39:09Z,,tools: update gyp to 0.2.0,32698
+jasnell,2020-04-06T23:34:25Z,2020-04-06T21:32:30Z,,build: enable NODE_DEBUG=test by default for tests,32696
+targos,2020-04-06T20:30:18Z,2020-04-06T19:38:07Z,,deps: patch V8 to 8.1.307.28,32693
+daemon1024,2020-04-11T04:02:36Z,2020-04-06T19:34:13Z,,test: replace console.log/error() with debuglog,32692
+ronag,2020-04-10T14:57:27Z,2020-04-06T18:12:47Z,,stream: cleanup pipeline destroyer,32690
+connor4312,2020-04-08T07:57:41Z,2020-04-06T17:12:30Z,,Line numbers reported from code in `new Function` are incorrect,32688
+danbev,2020-04-07T05:21:25Z,2020-04-06T12:32:09Z,,build: turn warnings into errors for node sources,32685
+danbev,2020-04-09T06:08:30Z,2020-04-06T06:08:01Z,,src: ignore GCC -Wcast-function-type for v8.h,32679
+nschonni,2020-04-11T11:12:30Z,2020-04-06T03:52:29Z,,doc: enable remark-lint-no-literal-urls,32676
+mooyoul,2020-04-05T23:38:25Z,2020-04-05T23:38:25Z,,Always call Socket#setTimeout in HTTP ClientRequest#setTimeout,32675
+lpinca,2020-04-08T23:40:13Z,2020-04-05T10:19:10Z,,tools: enable no-else-return lint rule,32667
+yashLadha,2020-04-06T05:15:16Z,2020-04-05T10:05:21Z,,lib: do not show warning on timeout overflow,32666
+yashLadha,2020-04-07T00:23:04Z,2020-04-05T09:40:00Z,,lib: created isValidCallback validator,32665
+yashLadha,2020-04-05T09:28:42Z,2020-04-05T06:49:07Z,,lib: refactored scheduling policy assignment,32663
+JesuHrz,2020-04-07T00:30:24Z,2020-04-04T23:46:06Z,,lib: removes unnecessary else statement,32662
+ACoolCat,2020-04-05T08:51:19Z,2020-04-04T23:18:45Z,,Add files via upload,32661
+srl295,2020-04-08T15:49:38Z,2020-04-04T22:04:28Z,,v8: need to land a patch to support ICU 67,32660
+Hakerh400,2020-04-07T00:58:34Z,2020-04-04T16:18:54Z,,build: fix vcbuild error for missing Visual Studio,32658
+sla100,2020-04-07T00:19:43Z,2020-04-04T16:08:31Z,,Missing brackets,32657
+haqer1,2020-04-09T05:24:58Z,2020-04-04T09:35:16Z,,doc: additional note in README(.md) informing users that it is advise…,32655
+haqer1,2020-04-04T10:12:45Z,2020-04-04T09:26:24Z,,doc: additional note in README(.md) informing users that they may nee…,32654
+mscdex,2020-04-04T16:18:06Z,2020-04-04T09:19:27Z,,Exception while running 'es' benchmarks,32653
+JesuHrz,2020-04-05T16:31:12Z,2020-04-04T01:57:12Z,,test: adds underscore to usused variables on async hook promise test,32649
+DerekNonGeneric,2020-04-06T03:50:50Z,2020-04-03T21:47:03Z,,esm: make enhancements to example loader fixture,32646
+ddazal,2020-04-04T05:19:22Z,2020-04-03T17:59:29Z,,lib: remove unnecesary else block,32644
+zjffun,2020-04-04T07:31:24Z,2020-04-03T17:12:17Z,,doc: Should `runMain()` and `globalPaths` of module add in doc?,32643
+rickyes,2020-04-07T06:33:22Z,2020-04-03T12:32:31Z,,fs: Use constant kWriteFileMaxChunkSize,32640
+dericop,2020-04-05T16:12:17Z,2020-04-03T02:56:39Z,,test: test-async-wrap-constructor refactor-for-to-foreach,32631
+richardlau,2020-04-03T14:08:46Z,2020-04-03T01:42:10Z,2020-04-010T17:08:46Z,test: run test-abort-aliased-buffer-overflow,32626
+addaleax,2020-04-03T16:59:43Z,2020-04-02T20:27:12Z,,Nominating @juanarbol as a collaborator,32621
+marcofranssen,2020-04-09T14:44:56Z,2020-04-02T08:17:36Z,,"export * from 'dependency' not working when { ""type"": ""module"" }",32613
+lingsamuel,2020-04-08T02:47:24Z,2020-04-02T06:22:55Z,,esm: resolve main from package.json when importing from directory,32612
+jasnell,2020-04-07T14:39:10Z,2020-04-02T00:13:27Z,,workers: implement --max-worker-threads command line option,32606
+coreyfarrell,2020-04-01T23:21:01Z,2020-04-01T22:03:46Z,,Incorrect backtrace location for argument spread of non-iterable value,32604
+sam-github,2020-04-03T10:21:46Z,2020-04-01T18:27:03Z,,[v10.x] Openssl 1.1.1f,32601
+bnoordhuis,2020-04-01T13:16:35Z,2020-04-01T13:16:24Z,,tls: out of memory on large write,32598
+HarshithaKP,2020-04-11T11:44:16Z,2020-04-01T07:17:20Z,,test: skip test-worker-prof in debug builds,32596
+haqer1,2020-04-04T09:57:26Z,2020-04-01T04:28:35Z,,doc: make README(.md) more informative by indicating that a GPG key u…,32591
+yashLadha,2020-04-01T21:19:34Z,2020-03-31T15:32:13Z,,lib: use map for worker mapping in cluster,32584
+richard-townsend-arm,2020-04-06T23:43:18Z,2020-03-31T12:24:01Z,,Adding cross-compilation support for Windows on Arm,32582
+el5846,2020-04-12T04:57:22Z,2020-04-12T01:14:29Z,,doc: updated directory entry information,32791
+juanarbol,2020-04-12T00:53:30Z,2020-04-12T00:09:36Z,,lib: expose performance interface to global,32790
+cjihrig,2020-04-11T22:03:05Z,2020-04-11T20:09:46Z,,http: return this from IncomingMessage#destroy(),32789
+cjihrig,2020-04-11T22:08:47Z,2020-04-11T19:20:30Z,,doc: add transform stream destroy() return value,32788
+addaleax,2020-04-12T02:22:54Z,2020-04-11T18:54:04Z,,build: add configure flag to build V8 with DCHECKs,32787
+rickyes,2020-04-12T03:21:43Z,2020-04-11T18:12:52Z,,tls: connect supports highWaterMark option,32786
+lirantal,2020-04-11T14:20:44Z,2020-04-11T14:03:12Z,,doc: improve WHATWG url constructor code example,32782
+thunderol,2020-04-11T12:16:47Z,2020-04-11T11:31:19Z,,highWaterMark option is ignored in HTTPs request stream,32781
+ronag,2020-04-12T00:21:08Z,2020-04-11T11:21:46Z,,stream: fix _final and 'prefinish' timing,32780
+JesuHrz,2020-04-11T18:58:59Z,2020-04-11T04:41:22Z,,src: removes unused v8::Integer and v8::Array namespace,32779
+jasnell,2020-04-11T19:24:09Z,2020-04-11T03:21:53Z,,src: add AliasedStruct utility,32778
+mmarchini,2020-04-11T19:33:33Z,2020-04-11T01:41:53Z,,build: re-enable ASAN Action using clang,32776
+mmarchini,2020-04-11T06:16:06Z,2020-04-11T01:19:32Z,,New label suggestion: `ci-actions`,32775
+mmarchini,2020-04-11T13:37:51Z,2020-04-10T22:05:15Z,,[V8 canary] test: add required flag to FinalizationGroup test,32773
+LongTengDao,2020-04-10T21:04:53Z,2020-04-10T21:01:38Z,,"IncommingMessage extends Readable, but it's destroy method not return this",32772
+edsadr,2020-04-10T21:21:44Z,2020-04-10T20:06:42Z,,test:  better error validations for event-capture,32771
+Flarna,2020-04-11T22:23:50Z,2020-04-10T18:39:24Z,,buffer: add type check in bidirectionalIndexOf,32770
+edsadr,2020-04-11T20:52:14Z,2020-04-10T18:09:49Z,,test: refactor events  tests for invalid listeners,32769
+BethGriggs,2020-04-10T21:28:26Z,2020-04-10T17:10:36Z,,2020-04-10 Node.js v10.20.1 'Dubnium' (LTS) Release,32768
+ronag,2020-04-10T18:55:34Z,2020-04-10T17:03:35Z,,doc: add link to code ide configs,32767
+HarshithaKP,2020-04-11T05:21:22Z,2020-04-10T16:25:55Z,,test: elevate common http sequences to common,32766
+ArchangeGabriel,2020-04-10T16:17:48Z,2020-04-10T16:17:48Z,,Erbium: test regression in tarball,32765
+ronag,2020-04-12T00:22:01Z,2020-04-10T15:19:04Z,,stream: simplify Transform stream implementation,32763
+addaleax,2020-04-11T21:43:49Z,2020-04-10T14:15:14Z,,src: include Environment in snapshot,32761
+addaleax,2020-04-11T04:01:35Z,2020-04-10T11:08:26Z,,tls: provide default cipher list from command line,32760
+addaleax,2020-04-10T14:33:23Z,2020-04-10T10:46:39Z,,buffer: mark pool ArrayBuffer as untransferable,32759
+rickyes,2020-04-11T05:33:19Z,2020-04-10T09:20:36Z,,lib: replace charCodeAt with fixed Unicode,32758
+puzpuzpuz,2020-04-10T19:57:38Z,2020-04-10T08:28:28Z,,doc: improve AsyncLocalStorage sample,32757
+gabrielschulhof,2020-04-10T19:02:23Z,2020-04-10T06:01:52Z,,v10.20.0 N-API headers as shipped in the headers tarball disagree with the headers as tagged,32755
+zyscoder,2020-04-10T10:50:30Z,2020-04-10T04:03:17Z,,'buffer.Buffer.prototype.lastIndexOf' results in an abort,32753
+daguej,2020-04-10T22:10:25Z,2020-04-10T03:37:51Z,,Cannot construct new Buffer in worker thread after transferring buffer out,32752
+julianduque,2020-04-10T19:53:54Z,2020-04-10T02:53:58Z,,test: cover node entry type in perf_hooks,32751
+zyscoder,2020-04-10T11:20:01Z,2020-04-10T02:53:29Z,,process.setuid results in an abort,32750
+juanarbol,2020-04-11T22:25:42Z,2020-04-10T02:27:47Z,,src: remove unused v8 Array namespace,32749
+zyscoder,2020-04-10T04:37:24Z,2020-04-10T02:25:16Z,,"'crypto.createDiffieHellman(prime: string, prime_encoding: HexBase64Latin1Encoding)' results in an abort",32748
+zyscoder,2020-04-10T02:03:08Z,2020-04-10T02:03:08Z,,'zlib.gzip' results in an abort,32747
+addaleax,2020-04-10T11:43:05Z,2020-04-09T16:52:37Z,,worker: fix type check in receiveMessageOnPort,32745
+rosaxny,2020-04-11T03:59:21Z,2020-04-09T16:28:55Z,,util: change default value of `maxStringLength` to 10000,32744
+zyscoder,2020-04-09T16:38:40Z,2020-04-09T16:02:28Z,,'worker_threads.receiveMessageOnPort' results in an abort,32742
+zyscoder,2020-04-12T05:40:30Z,2020-04-09T15:55:38Z,,process._debugProcess results in an abort,32741
+josephg,2020-04-09T12:50:05Z,2020-04-09T01:04:39Z,,Node 13 on MacOS cannot dyld to /usr/local/lib,32740
+bnoordhuis,2020-04-11T06:17:11Z,2020-04-09T10:28:59Z,,crypto: reject non-int32 values in DiffieHellman(),32739
+Lancern,2020-04-09T10:09:32Z,2020-04-09T08:24:09Z,,`crypto.createDiffieHellman` results in an abort,32738
+gireeshpunathil,2020-04-09T09:56:01Z,2020-04-09T02:08:18Z,,doc: elevate diagnostic report to tier1,32732
+0807Jpatel,2020-04-11T22:53:43Z,2020-04-09T01:29:02Z,,http.createServer highwatermark config,32731
+JesuHrz,2020-04-09T12:05:35Z,2020-04-08T21:04:40Z,,test: replace equal with strictEqual,32727
+mhdawson,2020-04-08T20:29:37Z,2020-04-08T20:24:22Z,,doc: improve consistency in usage of NULL,32726
+AndreaRibuoli,2020-04-09T12:42:43Z,2020-04-08T19:38:36Z,,IBM i PASE access to os.networkInterfaces() fails in v12.16.1 (works in v10.19.0),32725
+mhdawson,2020-04-08T16:19:00Z,2020-04-08T15:41:08Z,,doc: updated guidance for n-api changes,32721
+facorreia,2020-04-09T19:43:08Z,2020-04-08T13:44:34Z,,Build fails when cross compiling v12.x host x86-64 to arm,32717
+targos,2020-04-11T04:04:19Z,2020-04-08T05:37:39Z,,build: output dots instead of tap in GitHub actions,32714
+yashLadha,2020-04-08T13:40:45Z,2020-04-08T04:55:59Z,,Optional Memory benchmark flag in benchmarking scripts,32713
+mikolaj-leszczynski,2020-04-08T13:38:44Z,2020-04-07T21:39:19Z,,doc: readable events and their emissions,32709
+serge1peshcoff,2020-04-07T20:03:14Z,2020-04-07T16:53:47Z,,"""await is only valid in async function"" when trying to use await in a for loop with TLA support",32708
+mafintosh,2020-04-07T17:36:43Z,2020-04-07T15:56:52Z,,Document allowHalfOpen in net.connect,32707
+rickyes,2020-04-08T11:33:31Z,2020-04-07T15:45:49Z,,timer: optimize timer initialization,32706
+jasnell,2020-04-08T15:53:58Z,2020-04-07T13:51:55Z,,repl: repl command preview interacts badly with `--trace-sync-io`,32705
+HarshithaKP,2020-04-10T14:42:54Z,2020-04-07T11:39:55Z,,doc: document `buffer.from` returns internal pool buffer,32703
+Himself65,2020-04-08T06:10:34Z,2020-04-07T11:21:18Z,,benchmark: add a perf_hooks benchmark,32702
+cecchi,2020-04-07T19:47:44Z,2020-04-07T05:13:41Z,,doc: remove warning from `response.writeHead`,32700
+ryzokuken,2020-04-08T14:09:02Z,2020-04-07T01:39:09Z,,tools: update gyp to 0.2.0,32698
+jasnell,2020-04-06T23:34:25Z,2020-04-06T21:32:30Z,,build: enable NODE_DEBUG=test by default for tests,32696
+targos,2020-04-06T20:30:18Z,2020-04-06T19:38:07Z,,deps: patch V8 to 8.1.307.28,32693
+daemon1024,2020-04-11T04:02:36Z,2020-04-06T19:34:13Z,,test: replace console.log/error() with debuglog,32692
+ronag,2020-04-10T14:57:27Z,2020-04-06T18:12:47Z,,stream: cleanup pipeline destroyer,32690
+connor4312,2020-04-08T07:57:41Z,2020-04-06T17:12:30Z,,Line numbers reported from code in `new Function` are incorrect,32688
+danbev,2020-04-07T05:21:25Z,2020-04-06T12:32:09Z,,build: turn warnings into errors for node sources,32685
+danbev,2020-04-09T06:08:30Z,2020-04-06T06:08:01Z,,src: ignore GCC -Wcast-function-type for v8.h,32679
+nschonni,2020-04-11T11:12:30Z,2020-04-06T03:52:29Z,,doc: enable remark-lint-no-literal-urls,32676
+mooyoul,2020-04-05T23:38:25Z,2020-04-05T23:38:25Z,,Always call Socket#setTimeout in HTTP ClientRequest#setTimeout,32675
+lpinca,2020-04-08T23:40:13Z,2020-04-05T10:19:10Z,,tools: enable no-else-return lint rule,32667
+yashLadha,2020-04-06T05:15:16Z,2020-04-05T10:05:21Z,,lib: do not show warning on timeout overflow,32666
+yashLadha,2020-04-07T00:23:04Z,2020-04-05T09:40:00Z,,lib: created isValidCallback validator,32665
+yashLadha,2020-04-05T09:28:42Z,2020-04-05T06:49:07Z,,lib: refactored scheduling policy assignment,32663
+JesuHrz,2020-04-07T00:30:24Z,2020-04-04T23:46:06Z,,lib: removes unnecessary else statement,32662
+ACoolCat,2020-04-05T08:51:19Z,2020-04-04T23:18:45Z,,Add files via upload,32661
+srl295,2020-04-08T15:49:38Z,2020-04-04T22:04:28Z,,v8: need to land a patch to support ICU 67,32660
+Hakerh400,2020-04-07T00:58:34Z,2020-04-04T16:18:54Z,,build: fix vcbuild error for missing Visual Studio,32658
+sla100,2020-04-07T00:19:43Z,2020-04-04T16:08:31Z,,Missing brackets,32657
+haqer1,2020-04-09T05:24:58Z,2020-04-04T09:35:16Z,,doc: additional note in README(.md) informing users that it is advise…,32655
+haqer1,2020-04-04T10:12:45Z,2020-04-04T09:26:24Z,,doc: additional note in README(.md) informing users that they may nee…,32654
+mscdex,2020-04-04T16:18:06Z,2020-04-04T09:19:27Z,,Exception while running 'es' benchmarks,32653
+JesuHrz,2020-04-05T16:31:12Z,2020-04-04T01:57:12Z,,test: adds underscore to usused variables on async hook promise test,32649
+DerekNonGeneric,2020-04-06T03:50:50Z,2020-04-03T21:47:03Z,,esm: make enhancements to example loader fixture,32646
+ddazal,2020-04-04T05:19:22Z,2020-04-03T17:59:29Z,,lib: remove unnecesary else block,32644
+zjffun,2020-04-04T07:31:24Z,2020-04-03T17:12:17Z,,doc: Should `runMain()` and `globalPaths` of module add in doc?,32643
+rickyes,2020-04-07T06:33:22Z,2020-04-03T12:32:31Z,,fs: Use constant kWriteFileMaxChunkSize,32640
+dericop,2020-04-05T16:12:17Z,2020-04-03T02:56:39Z,,test: test-async-wrap-constructor refactor-for-to-foreach,32631
+richardlau,2020-04-03T14:08:46Z,2020-04-03T01:42:10Z,,test: run test-abort-aliased-buffer-overflow,32626
+addaleax,2020-04-03T16:59:43Z,2020-04-02T20:27:12Z,,Nominating @juanarbol as a collaborator,32621
+marcofranssen,2020-04-09T14:44:56Z,2020-04-02T08:17:36Z,,"export * from 'dependency' not working when { ""type"": ""module"" }",32613
+lingsamuel,2020-04-08T02:47:24Z,2020-04-02T06:22:55Z,,esm: resolve main from package.json when importing from directory,32612
+jasnell,2020-04-07T14:39:10Z,2020-04-02T00:13:27Z,,workers: implement --max-worker-threads command line option,32606
+coreyfarrell,2020-04-01T23:21:01Z,2020-04-01T22:03:46Z,,Incorrect backtrace location for argument spread of non-iterable value,32604
+sam-github,2020-04-03T10:21:46Z,2020-04-01T18:27:03Z,,[v10.x] Openssl 1.1.1f,32601
+bnoordhuis,2020-04-01T13:16:35Z,2020-04-01T13:16:24Z,,tls: out of memory on large write,32598
+HarshithaKP,2020-04-11T11:44:16Z,2020-04-01T07:17:20Z,2020-04-16T15:08:46Z,test: skip test-worker-prof in debug builds,32596
+haqer1,2020-04-04T09:57:26Z,2020-04-01T04:28:35Z,,doc: make README(.md) more informative by indicating that a GPG key u…,32591
+yashLadha,2020-04-01T21:19:34Z,2020-03-31T15:32:13Z,,lib: use map for worker mapping in cluster,32584
+richard-townsend-arm,2020-04-06T23:43:18Z,2020-03-31T12:24:01Z,,Adding cross-compilation support for Windows on Arm,32582
+haqer1,2020-04-01T21:19:38Z,2020-03-30T12:53:30Z,,"doc: ensure that GPG key used to sign the latest LTS release (12.6.1), as well as 13.12.0, & 8.16.0 ",32565
+mnn,2020-03-30T12:49:23Z,2020-03-30T10:05:22Z,,TZ environment variable is being ignored for most time zones,32564
+haqer1,2020-03-30T07:44:59Z,2020-03-30T07:44:03Z,,"Consider adding some scripting, etc. to make sure that the key used to sign a release is listed in README.md",32561
+haqer1,2020-04-01T21:19:39Z,2020-03-30T06:47:54Z,,"doc: ensure that GPG key used to sign the latest LTS release (12.6.1), as well as 13.12.0, & 8.16.0 is mentioned in README(.md) (#32559)",32560
+haqer1,2020-04-04T10:23:34Z,2020-03-30T06:46:13Z,,"Either ensure that specific GPG keys used to sign releases are mentioned in README(.md) or indicate that the key could be a sub-key of a key listed (which itself isn't listed), with a sentence or 2 to minimize the time spent on sub-key aspect, if applicable",32559
+nschonni,2020-04-01T21:19:39Z,2020-03-29T22:40:46Z,,build: split GitHub Actions linters,32557
+addaleax,2020-04-07T19:16:16Z,2020-03-29T20:48:12Z,,Nominating @puzpuzpuz as a collaborator,32555
+yashLadha,2020-04-01T21:19:42Z,2020-03-29T10:46:59Z,,doc: amend related to execFile explanation,32545
+sam-github,2020-03-31T13:28:50Z,2020-03-28T17:43:18Z,,update openssl 1.1.1f (across all release lines),32537
+jorgeorpinel,2020-03-31T10:06:38Z,2020-03-28T01:28:50Z,,Win installer fails to install additional tools when .bat file isn't associated to ,32530
+sam-github,2020-03-29T04:19:17Z,2020-03-27T21:59:20Z,,child_process.exec/execFile docs have some inconsistencies and inaccuracies,32524
+bnoordhuis,2020-04-11T22:07:24Z,2020-03-27T11:56:47Z,,net: close connection if no 'connection' listener,32516
+cjihrig,2020-04-03T00:35:08Z,2020-03-26T03:14:22Z,,"cli, report: move --report-on-fatalerror to stable",32496
+ronag,2020-03-26T21:08:33Z,2020-03-25T17:46:14Z,,net: handle.onread called again after UV_EOF,32487
+dilyanpalauzov,2020-03-25T14:52:30Z,2020-03-25T14:44:52Z,,Describe alternatives to require.extensions,32483
+gabrielschulhof,2020-04-07T02:07:56Z,2020-03-25T13:10:34Z,,[v12.x] Backport n api 6 to v12.x,32482
+yashLadha,2020-03-25T16:58:44Z,2020-03-25T12:26:34Z,,`class` implementation for files,32480
+bnoordhuis,2020-04-01T21:19:49Z,2020-03-24T23:45:14Z,,crypto: add crypto.createMac(),32477
+srl295,2020-03-26T18:30:02Z,2020-03-24T19:04:52Z,,"Retry on failed ICU data load, ignoring NODE_ICU_DATA or --icu-data-dir",32466
+richardlau,2020-03-24T17:52:42Z,2020-03-24T17:44:31Z,,Check failed: result.second,32463
+gengjiawen,2020-04-03T07:42:29Z,2020-03-24T13:59:31Z,,build: add build artifact to CI,32458
+gabrielschulhof,2020-03-24T09:42:54Z,2020-03-24T06:59:10Z,,build fails on OSX 10.10,32452
+bnoordhuis,2020-04-01T21:19:51Z,2020-03-23T23:34:36Z,,crypto: make crypto.sign() support poly1305 mac,32448
+gabrielschulhof,2020-03-24T06:56:29Z,2020-03-23T22:52:39Z,,build fails on OSX 10.12,32447
+cTn-dev,2020-03-23T15:31:58Z,2020-03-23T07:09:22Z,,Add support for assigning names to worker_threads,32434
+mscdex,2020-03-23T23:37:28Z,2020-03-23T03:09:02Z,,crypto: poly1305 not supported as hmac,32433
+jasnell,2020-03-25T12:04:27Z,2020-03-22T20:53:12Z,,events: timing issue awaiting multiple events emitted in same nextTick,32431
+doubleswirve,2020-03-23T16:41:40Z,2020-03-22T20:37:32Z,,child_process spawn missing stdout on Ubuntu 20.04,32430
+mmarchini,2020-04-01T21:19:52Z,2020-03-22T03:51:11Z,,build: use Actions to validate commit message,32417
+mmarchini,2020-03-22T08:57:12Z,2020-03-21T23:33:25Z,,Small memory leaks on `EnvironmentTest.InspectorMultipleEmbeddedEnvironments`,32415
+bnoordhuis,2020-04-01T21:19:52Z,2020-03-21T13:09:45Z,,src: make fs functions handle pre-epoch timestamps,32408
+gengjiawen,2020-03-25T15:55:07Z,2020-03-21T08:07:06Z,,Expose _v8_internal_Print_Object symbol for debug addon and Node.js core easily,32402
+Himself65,2020-04-01T21:19:53Z,2020-03-21T03:56:35Z,,lib: refactor ServerResponse.prototype.writeHead,32399
+spazmodius,2020-03-21T14:49:02Z,2020-03-20T21:30:27Z,,response.writeHead() does not default `statusMessage` if it's undefined,32395
+bmeck,2020-04-01T21:19:53Z,2020-03-20T20:23:10Z,,esm: allow configuring default package type,32394
+legendecas,2020-04-06T16:08:07Z,2020-03-20T11:54:55Z,,async_hooks: add a method to expose all resources alive,32390
+LongTengDao,2020-03-27T08:21:44Z,2020-03-20T10:03:36Z,,Add maxHeadersCount support for http(s)2 server,32388
+mmarchini,2020-03-20T08:39:17Z,2020-03-20T08:07:00Z,,Inspector pause at beginning of recently parsed function will crash,32384
+mmarchini,2020-04-01T15:11:17Z,2020-03-20T01:41:46Z,,Tracking Issue: enable sanitizers on our CI,32380
+jasnell,2020-04-05T23:10:31Z,2020-03-19T22:21:08Z,,quic: part 3... initial quic implementation,32379
+jasnell,2020-03-31T19:18:23Z,2020-03-19T22:19:48Z,,quic: part 2... ngtcp2 and nghttp3,32378
+jasnell,2020-04-01T21:19:54Z,2020-03-19T22:18:04Z,,quic: part 1... quic-modified openssl,32377
+daneroo,2020-03-22T06:21:44Z,2020-03-19T19:17:45Z,,fs.Stat fails on pre-epoch mtime (<1970-01-01T00:00:00Z),32369
+lessfish,2020-03-19T23:25:47Z,2020-03-19T12:30:19Z,,rewrite bind function in prototype with console inside causes Maximum call stack size exceeded,32361
+targos,2020-03-20T17:39:57Z,2020-03-19T10:20:08Z,,gcc warning in inspector protocol implementation,32357
+SASUKE40,2020-03-19T15:03:24Z,2020-03-18T04:06:23Z,,benchmark: http simple connect timeout on macOS,32337
+mmarchini,2020-04-08T16:09:11Z,2020-03-18T01:15:55Z,,Discuss: should we require Travis and GitHub Actions to succeed before landing PRs,32335
+BridgeAR,2020-04-01T21:19:56Z,2020-03-17T21:38:34Z,,util: mark classes while inspecting them,32332
+pray2008,2020-03-17T15:08:03Z,2020-03-17T15:08:03Z,,HTTP2 does not support system Host ,32323
+bnoordhuis,2020-04-03T17:57:40Z,2020-03-17T13:09:53Z,,worker: file creation races with process.umask(),32321
+puzpuzpuz,2020-04-02T13:16:20Z,2020-03-17T06:30:46Z,,[v12.x backport] async_hooks: add AsyncLocalStorage,32318
+ebickle,2020-04-08T18:34:29Z,2020-03-17T04:19:37Z,,src: fix CAs missing from secure contexts,32315
+BridgeAR,2020-04-01T21:19:57Z,2020-03-17T01:39:49Z,,process: delay throwing an error using `throwDeprecation`,32312
+BridgeAR,2020-04-01T21:19:57Z,2020-03-17T00:32:02Z,,console: adhere to environment variables enforcing colors,32308
+mmarchini,2020-03-16T21:08:02Z,2020-03-16T18:24:10Z,,RFC: update Pull Requests with summary of CI failures,32306
+akirattii,2020-03-25T17:07:31Z,2020-03-16T10:18:07Z,,"memory leak on server.listen(port, '127.0.0.1') ?",32297
+ehmicky,2020-03-17T15:45:59Z,2020-03-15T20:23:15Z,,Piping `process.stdin` to `child.stdin` leaves behind an open handle,32291
+legendecas,2020-04-01T21:19:59Z,2020-03-15T13:22:06Z,,trace_events: clear metadata list on trace agent flushing,32283
+bmacnaughton,2020-03-15T13:26:00Z,2020-03-15T09:44:14Z,,perf_hooks/trace_events - nested measurements don't work as expected,32281
+jimmywarting,2020-03-17T21:41:25Z,2020-03-14T20:48:43Z,,minor request on logging classes,32270
+dnlup,2020-04-08T05:43:15Z,2020-03-14T15:26:30Z,,module: self referential modules in repl or `-r`,32261
+mscdex,2020-04-01T21:20:00Z,2020-03-14T15:09:13Z,,lib: improve debuglog() performance,32260
+gabrielschulhof,2020-03-20T01:07:32Z,2020-03-14T05:14:47Z,,build fails with --enable-asan --ninja on Ubuntu 18.04,32257
+simon-p-r,2020-03-15T11:53:53Z,2020-03-13T23:10:50Z,,Buffer.write inconsistent,32256
+YoDaMa,2020-04-01T21:20:00Z,2020-03-13T22:29:17Z,,lib: add debug logs to writable stream,32255
+lulzmachine,2020-04-01T21:20:01Z,2020-03-12T20:37:36Z,,esm: add gotcha to documentation,32237
+rhenwood-arm,2020-03-23T11:56:56Z,2020-03-12T18:55:02Z,,re-enable crypto dh keygen testing on Arm,32233
+AdamMajer,2020-03-13T16:36:27Z,2020-03-12T15:54:26Z,,crypto: tls.rootCertificates empty,32229
+mscdex,2020-03-17T01:28:07Z,2020-03-12T13:33:54Z,,buffer: ~2x slowdown in master compared to v12.x,32226
+ronag,2020-03-13T13:52:46Z,2020-03-12T12:22:38Z,,ClientRequest `.abort()` and `ECONNRESET`,32225
+aduh95,2020-04-01T21:20:01Z,2020-03-12T11:27:39Z,,esm: implement import.meta.main,32223
+aduh95,2020-04-08T15:39:58Z,2020-03-11T22:57:34Z,,modules: deprecate module.parent,32217
+bmeck,2020-04-01T21:20:02Z,2020-03-11T17:40:47Z,,test: update wpt,32208
+bnb,2020-03-13T01:36:20Z,2020-03-11T17:36:13Z,,Move to Electron's docs-parser tooling for Node.js documentation,32206
+bmeck,2020-04-01T21:20:03Z,2020-03-11T15:44:20Z,,esm: doc & validate source values for formats,32202
+bnoordhuis,2020-04-01T21:20:03Z,2020-03-11T10:56:09Z,,lib: cache timestamps in util.log(),32196
+watson,2020-04-01T21:20:03Z,2020-03-11T10:46:46Z,,doc: improve setUncaughtExceptionCaptureCallback docs,32194
+BethGriggs,2020-04-08T09:51:54Z,2020-03-10T17:55:18Z,,"2020-04-21, Version 14.0.0 (Current)",32181
+sbrl,2020-03-10T21:26:22Z,2020-03-10T15:14:49Z,,No stack trace with missing async keyword and dynamic imports,32177
+kasvtv,2020-04-01T21:20:04Z,2020-03-10T13:57:27Z,,doc: fix stream.pipeline async generators example and version,32175
+Cloudef,2020-03-10T20:04:04Z,2020-03-10T08:07:38Z,,"child_process, expose a raw exit code",32171
+dylanaraps,2020-03-12T14:37:38Z,2020-03-10T07:41:54Z,,nodejs can't be built with python3 and ninja,32170
+gireeshpunathil,2020-03-10T09:00:34Z,2020-03-10T06:49:50Z,,Investigate flaky sequential/test-cpu-prof-dir-worker,32168
+HeroesLament,2020-03-10T02:35:04Z,2020-03-10T02:29:45Z,,Installation Issue,32165
+BridgeAR,2020-04-01T21:20:04Z,2020-03-09T21:20:28Z,,tools: add debuglog eslint rule,32161
+nschonni,2020-04-01T21:20:04Z,2020-03-08T06:27:43Z,,build: move lint-js CI to separate job,32144
+dandv,2020-03-12T17:17:10Z,2020-03-07T13:40:16Z,,Misleading error that module does not provide export,32137
+Tchoupinax,2020-04-01T21:20:04Z,2020-03-07T11:30:55Z,,fs: prevent getter from making writev crash,32135
+puzpuzpuz,2020-04-06T19:51:52Z,2020-03-06T19:03:03Z,,[v12.x backport] async_hooks: add executionAsyncResource,32131
+jkleinsc,2020-04-09T17:49:59Z,2020-03-06T17:56:01Z,,build: add build from tarball,32129
+targos,2020-04-01T21:20:05Z,2020-03-06T16:23:05Z,,lib: add TypedArray to the primordials,32127
+mmarchini,2020-04-08T17:36:47Z,2020-03-05T19:56:01Z,,Node.js 14 - V8 version roadmap,32108
+JLHwung,2020-03-12T17:52:14Z,2020-03-05T16:55:44Z,,package.exports: false is not working with module loader,32107
+pool683,2020-03-09T18:35:19Z,2020-03-05T16:10:46Z,,Cluster IPC ERR_IPC_DISCONNECTED EPIPE,32106
+dandv,2020-04-01T12:31:01Z,2020-03-05T10:24:48Z,,"""Cannot find module"" when main file not `index.js` with experimental-specifier-resolution=node",32103
+goriunov,2020-03-09T11:41:11Z,2020-03-04T21:18:06Z,,SSL_Error_rx_Record_too_long after upgrading from Node 13.8 to 13.9 or 13.10,32097
+gabrielschulhof,2020-04-11T05:34:14Z,2020-03-04T18:48:40Z,,[v12.x] Backport large pages asm to v12.x,32092
+HarshithaKP,2020-04-01T21:20:06Z,2020-03-04T11:58:00Z,,test: cls variant of test-http-abort-stream-end,32084
+ZFail,2020-03-04T08:43:56Z,2020-03-04T08:24:31Z,,Error when creating external buffers: Check failed: length == backing_store->byte_length(),32083
+mike-marcacci,2020-03-11T00:51:51Z,2020-03-04T06:25:17Z,,Remove the DEP0018 deprecation,32081
+codebytere,2020-03-04T23:34:49Z,2020-03-03T19:16:01Z,,Docs only shows version subset in navigation,32077
+gireeshpunathil,2020-04-08T13:01:32Z,2020-03-03T09:47:41Z,,Ability for async functions to retreive their CLS context,32062
+MylesBorins,2020-04-01T21:20:07Z,2020-03-02T21:38:14Z,,module: improve error for invalid package targets,32052
+dominykas,2020-03-18T20:28:58Z,2020-03-02T16:52:02Z,,Performance regression when enumerating objects (for shallow cloning) v12.15.0 to v12.16.1,32049
+mmarchini,2020-03-02T16:42:10Z,2020-03-02T16:19:01Z,,Flaky test-vm-timeout-escape-queuemicrotask,32048
+mmarchini,2020-04-09T04:02:54Z,2020-03-02T16:04:07Z,,Improve documentation for Performance Hooks entry types,32047
+jwyglendowski-precisionlender,2020-03-16T17:21:57Z,2020-03-02T13:06:18Z,,"Building LTS v12.x on Windows Fails The system cannot find the file specified.""",32044
+MylesBorins,2020-03-02T21:40:02Z,2020-03-01T20:19:41Z,,"package.exports require ""./"" in front of path or resolver fails",32034
+gengjiawen,2020-03-18T16:09:58Z,2020-02-29T10:21:05Z,,Solid Node.js with official type system support,32022
+JasonWoof,2020-03-02T14:28:19Z,2020-02-29T08:09:57Z,,"Feature Request: way to merge streams like pumpify(a, b)",32020
+npomfret,2020-03-03T08:43:22Z,2020-02-28T23:39:16Z,,ConsumeHTTP2Data Assertion error,32015
+ebickle,2020-02-28T18:03:19Z,2020-02-28T18:03:19Z,,Extra CA certificates missing when certain TLS options specified,32010
+alasdairhurst,2020-02-29T11:43:13Z,2020-02-28T16:10:05Z,,"Strange resolving order using ""node ."" to start an app",32008
+Flarna,2020-04-08T09:20:08Z,2020-02-28T11:59:15Z,,[v12.x backport] events: allow monitoring error events,32004
+rexagod,2020-04-01T21:20:07Z,2020-02-27T22:52:55Z,,readline: rename input field and remove excess params ,31991
+tylerlong,2020-03-03T17:42:51Z,2020-02-27T21:47:01Z,,Proxy bug?,31989
+ConorDavenport,2020-04-10T17:14:08Z,2020-02-27T14:09:09Z,,lib: porting common.mustCall to assert,31982
+alubbe,2020-04-02T12:00:57Z,2020-02-27T06:18:34Z,,Performance of for await of (async iteration),31979
+gireeshpunathil,2020-03-04T11:58:33Z,2020-02-27T04:27:33Z,,convert relevant tests to use CLS,31978
+jasnell,2020-04-01T21:20:08Z,2020-02-27T00:45:32Z,,meta: add requirement for signed-off-by statements,31976
+guybedford,2020-04-01T21:20:08Z,2020-02-26T21:32:32Z,,module: remove experimental modules warning,31974
+connor4312,2020-02-26T20:05:44Z,2020-02-26T19:59:52Z,,console.group() emits duplicate CDP messages,31973
+martinheidegger,2020-04-03T16:08:04Z,2020-02-26T16:41:09Z,,Support AbortSignals in async API,31971
+mbakke,2020-03-01T09:20:52Z,2020-02-26T16:37:25Z,,Many zlib tests are failing on armhf with system zlib,31970
+lundibundi,2020-04-07T06:16:12Z,2020-02-26T13:06:26Z,,test: add few stream utils to common,31968
+gireeshpunathil,2020-02-26T06:33:46Z,2020-02-26T06:33:46Z,,investigate flaky parallel/test-net-socket-connect-without-cb,31964
+ghermeto,2020-03-26T18:48:47Z,2020-02-26T04:28:03Z,,Performance regression when enumerating objects after many deletes/inserts ,31961
+tniessen,2020-03-29T14:28:16Z,2020-02-25T20:41:55Z,,CI is unusable,31955
+Qard,2020-04-11T23:06:30Z,2020-02-25T14:24:36Z,,async_hooks: prevent async storage methods leaking to outer context,31950
+emerzon,2020-04-09T13:58:52Z,2020-02-25T10:11:49Z,,Unable to build Node 12.16.1 with --use-largepages option,31948
+seansd,2020-03-01T09:23:52Z,2020-02-25T02:06:19Z,,httpAgent.absoluteMaxSockets ,31942
+syg,2020-02-24T23:52:02Z,2020-02-24T23:49:41Z,,Rename FinalizationGroup to FinalizationRegistry,31941
+megothub,2020-02-24T16:41:57Z,2020-02-24T16:41:57Z,,http module emit 'end' event after 'error' event being called,31935
+Rantoledo,2020-02-25T10:11:04Z,2020-02-24T12:45:14Z,,HTTP2 bandwidth issues,31932
+benjamingr,2020-04-01T21:20:10Z,2020-02-23T11:14:36Z,,module: recover on statCache failure,31921
+mscdex,2020-04-01T06:36:59Z,2020-02-22T23:24:49Z,,repl: SyntaxError thrown when entering bigint literal inside multi-line input,31919
+ronag,2020-03-31T20:14:01Z,2020-02-22T19:29:29Z,,net: aborted socket incorrectly ends gracefully,31916
+helloneele,2020-04-02T07:08:54Z,2020-02-22T17:42:54Z,,Memory leak when using Intl.DateTimeFormat.format() and Intl.NumberFormat.format(),31914
+noffle,2020-02-25T18:40:34Z,2020-02-22T02:02:53Z,,fs.createWriteSteam doesn't report ENOSPC on a single write,31908
+thany,2020-02-22T10:31:36Z,2020-02-21T22:00:59Z,,doc: StringDecoder supported encodings,31907
+dnlup,2020-04-01T21:20:11Z,2020-02-21T20:29:04Z,,esm: better error message using commonjs hint,31906
+NeoPhi,2020-03-10T22:17:21Z,2020-02-20T20:27:33Z,,http2 client request doesn't always fire end event,31890
+Himself65,2020-02-20T10:06:26Z,2020-02-20T07:58:42Z,,Same second parameter type on assert.throws and asserts.doesNotThrow,31882
+HarshithaKP,2020-04-01T21:20:11Z,2020-02-20T07:03:30Z,,doc: Add more useful information to Glossary.md,31879
+Trott,2020-04-01T21:20:11Z,2020-02-20T03:41:00Z,,doc: update os.tmpdir() to discuss symlink results on macOS,31877
+tschaub,2020-04-01T21:20:12Z,2020-02-19T21:30:54Z,,doc: add esm alternative for require.main,31875
+nlepage,2020-02-19T17:34:16Z,2020-02-19T14:46:03Z,,Async generator: catched error on last yield is wrongly rethrown,31867
+ExE-Boss,2020-02-19T03:36:03Z,2020-02-19T02:17:33Z,,esm: Make `import.meta.resolve(…)` take an options argument,31861
+SimenB,2020-02-19T00:56:08Z,2020-02-19T00:34:40Z,,`vm.compileFunction` is missing `importModuleDynamically`,31860
+SimenB,2020-02-19T13:28:05Z,2020-02-18T18:00:51Z,,Evaluate node core modules within a `vm.Context`,31852
+kamakuba,2020-02-18T15:36:10Z,2020-02-18T15:36:10Z,,"Adding globalAgent.maxSockets generate [RSR, ACK] at the end of communications",31850
+devsnek,2020-04-01T21:20:12Z,2020-02-18T10:22:07Z,,src: combine internal file read utils,31844
+jameshilliard,2020-02-19T22:49:40Z,2020-02-18T03:04:32Z,,Nodejs build system incorrectly prepending zlib include path to small-icu includes.,31840
+ronag,2020-04-02T12:41:52Z,2020-02-16T10:43:13Z,,http: align with stream.Writable,31818
+legendecas,2020-04-01T21:20:13Z,2020-02-16T09:27:39Z,,util: inspecting private fields,31817
+zaguiini,2020-03-12T17:35:52Z,2020-02-15T18:40:12Z,,Modules preloading suggestion,31815
+ronag,2020-02-15T15:38:02Z,2020-02-15T15:35:32Z,,stream: writable/readable during pending/constructing phase,31813
+ExE-Boss,2020-02-15T17:41:58Z,2020-02-15T08:54:57Z,,vm: Function declarations should use [[Define]] instead of [[Set]] on the global object,31808
+ExE-Boss,2020-02-15T17:21:06Z,2020-02-15T07:38:18Z,,vm: Provide a way to replace the underlying global object of the GlobalProxy,31807
+jasnell,2020-04-01T21:20:14Z,2020-02-15T00:20:46Z,,timers: captureRejections for timers,31804
+benjamingr,2020-02-22T01:28:56Z,2020-02-14T22:12:39Z,,Clear the internal require `statCache` on an unsuccessful module load?,31803
+mscdex,2020-04-01T21:20:14Z,2020-02-14T08:20:43Z,,benchmark: remove deprecated tls.createSecurePair,31785
+lundibundi,2020-02-13T20:24:17Z,2020-02-13T20:24:17Z,,workers: worker doesn't write all data to stdout stream with NODE_OPTIONS --require,31777
+MarshallOfSound,2020-04-01T21:20:15Z,2020-02-13T18:58:26Z,,src: stop calling deprecated noop method,31774
+bnoordhuis,2020-02-25T23:12:22Z,2020-02-13T16:09:54Z,,repl: respect util.inspect.defaultOptions,31769
+Tobbe,2020-02-13T14:03:59Z,2020-02-13T04:53:08Z,,readline hangs the process on Win10,31762
+YoDaMa,2020-02-25T12:42:36Z,2020-02-13T01:03:29Z,,add debug logs to _stream_writable,31761
+aduh95,2020-04-04T09:36:36Z,2020-02-12T23:41:34Z,,Add type option to Worker constructor,31760
+mikeal,2020-02-13T01:42:22Z,2020-02-12T23:33:32Z,,HTTP 1.1 fallback for HTTP 2 client,31759
+fbiville,2020-03-25T13:09:43Z,2020-02-12T12:11:39Z,,Inconsistent erroring stream completion behavior between Node LTS versions and Node 13.x,31750
+addaleax,2020-04-01T21:20:15Z,2020-02-12T00:26:43Z,,src: use symbol to store `AsyncWrap` resource,31745
+fenying,2020-02-11T10:07:16Z,2020-02-09T09:14:58Z,,"fs,crypto: AAD decryption of fs stream > 32768 bytes fails",31733
+Trott,2020-03-25T21:51:55Z,2020-02-11T05:24:12Z,,investigate flaky test-fs-stat-bigint,31727
+lundibundi,2020-02-10T19:15:37Z,2020-02-10T19:15:37Z,,Investigate test-inspector-port-zero,31723
+gabrielschulhof,2020-04-01T21:20:16Z,2020-02-10T08:36:37Z,,n-api: track refs using ListNode and ListHead,31714
+najibghadri,2020-03-15T08:08:56Z,2020-02-09T15:18:47Z,,HTTP2 Server Upgrade listener undocumented,31709
+ORESoftware,2020-02-07T20:13:47Z,2020-02-07T19:36:24Z,,util.inspect should visually format numbers differently than booleans,31681
+ConorDavenport,2020-04-01T21:20:17Z,2020-02-07T15:46:51Z,,tools: add check for directives styling,31677
+MYDIH,2020-02-07T12:12:53Z,2020-02-07T11:09:35Z,,Chown not conform to glibc's chown,31673
+bertlea,2020-02-11T02:27:59Z,2020-02-07T03:34:43Z,,Node v10.19.0-linux-armv6l cannot be run on Debian Jessie,31668
+lgpasquale,2020-02-06T15:05:24Z,2020-02-06T15:05:24Z,,net: setKeepAlive options ignored before connect,31663
+SimenB,2020-02-07T18:57:29Z,2020-02-06T12:28:41Z,,Improve performance of accessing globals in scripts running in `vm` modules,31658
+gireeshpunathil,2020-02-27T21:54:43Z,2020-02-05T05:08:24Z,,How much is my memory?,31641
+gabrielschulhof,2020-02-05T00:04:13Z,2020-02-04T23:09:17Z,,Re-implement N-API RefTracker class using util's ListHead/ListNode,31639
+jasnell,2020-02-04T19:04:17Z,2020-02-04T19:03:08Z,,test: individual test run on Windows does not report segfaults,31636
+jasnell,2020-02-04T01:54:07Z,2020-02-04T00:32:15Z,,Allow test.py runner to support folder hierarchy,31627
+srxzr,2020-02-02T22:47:44Z,2020-02-02T22:22:25Z,,TLS 1.3 ESNI,31618
+cjihrig,2020-04-01T21:20:17Z,2020-02-02T21:45:39Z,2020-04-09T15:08:46Z,test: add WASI test for file resizing,31617
+rexagod,2020-04-01T21:20:17Z,2020-02-01T21:51:12Z,,lib: fix flaky test-stream-pipe-after-end,31609
+szmarczak,2020-02-01T17:52:47Z,2020-02-01T17:40:22Z,,Inspector gives an inaccurate result,31604
+rexagod,2020-04-01T21:20:18Z,2020-02-01T13:47:02Z,,readline: add error handling for input stream,31603
+josherich,2020-02-10T22:47:36Z,2020-02-01T03:14:31Z,,doc: Improve docs search engine indexing,31598
+MylesBorins,2020-03-12T17:49:56Z,2020-01-31T20:32:17Z,,Self referential modules not supported in repl or `-r`,31595
+bnoordhuis,2020-04-01T21:20:18Z,2020-01-31T09:40:06Z,,src: remove duplicate env field from CryptoJob,31588
+devsnek,2020-04-01T21:20:18Z,2020-01-31T03:28:27Z,,module: prevent builtins from resolving from disk,31586
+ARitz-Cracker,2020-02-09T15:40:37Z,2020-01-30T20:25:01Z,,readStream.ready event is emitted when (and before) readStream.error is emitted with EISDIR,31583
+dothebart,2020-01-30T12:46:31Z,2020-01-30T12:46:31Z,,Macos Derived exceptions seem to be affected by RTTI settings in the gypfile,31578
+bnoordhuis,2020-04-01T21:20:19Z,2020-01-29T12:16:57Z,,dns: default to verbatim=true in dns.lookup(),31567
+bnoordhuis,2020-01-29T12:14:35Z,2020-01-29T12:14:35Z,,dns: default to verbatim=true in dns.lookup(),31566
+yunnysunny,2020-04-01T21:20:19Z,2020-01-29T04:00:32Z,,doc: The default value of highWaterMark is 16KB.,31561
+rustyconover,2020-04-01T21:20:19Z,2020-01-28T15:58:04Z,,net: Track state of setKeepAlive and prevent unnecessary system calls,31551
+rustyconover,2020-04-01T21:20:20Z,2020-01-27T16:23:18Z,,http: Add noDelay to http.request() options.,31539
+legendecas,2020-01-29T05:28:34Z,2020-01-27T12:46:34Z,,Ability to synchronously drain a thread safe function,31531
+rustyconover,2020-04-01T21:20:20Z,2020-01-26T19:24:59Z,,http: Change free sockets behavior to LIFO from FIFO.,31526
+rustyconover,2020-04-01T21:20:21Z,2020-01-26T17:22:03Z,,tls: Prevent zero length write() syscalls.,31525
+aduh95,2020-01-26T09:53:28Z,2020-01-25T17:53:10Z,,Ill-formed exports field lacks clear error message when using ESM and self-resolve,31510
+TimWolla,2020-02-02T02:14:48Z,2020-01-23T22:01:51Z,,Segmentation fault in v8::internal::compiler::(anonymous namespace)::MayAlias (10.15.2 from Debian Buster),31484
+acdibble,2020-01-23T00:08:33Z,2020-01-22T18:52:16Z,,"Inconsistent behavior with readable stream event ""readable"" in different versions of Node",31464
+shannonmoeller,2020-01-30T12:51:00Z,2020-01-22T18:35:26Z,,"Support ""file:///"" URIs in fs and path functions",31463
+ljharb,2020-04-01T21:20:22Z,2020-01-22T08:48:34Z,,lib: the REPL should survive deletion of Array.prototype methods,31457
+Somebi,2020-01-22T09:06:57Z,2020-01-22T06:32:26Z,,Possible error in async_hooks,31454
+SFx2018,2020-01-23T10:08:57Z,2020-01-21T23:21:35Z,,V8 release v8.0,31452
+addaleax,2020-04-01T21:20:22Z,2020-01-21T22:38:39Z,,http: decode username and password before encoding,31450
+sam-github,2020-02-14T01:00:11Z,2020-01-21T16:50:38Z,,discussion: can http-parser be replaced with llhttp in LTS (10.x and 12.x)?,31441
+izonder,2020-01-21T22:12:49Z,2020-01-21T15:48:34Z,,Passing `username` from URL object to http.clientRequest without decoding,31439
+Dragiyski,2020-04-01T21:20:23Z,2020-01-20T18:26:07Z,,embedding: allow creating context within inspectable node::Environment,31424
+Dragiyski,2020-04-11T11:54:46Z,2020-01-20T14:51:06Z,,"Inspector crash on ""step into"" async function",31419
+bnoordhuis,2020-03-22T00:15:02Z,2020-01-18T18:53:51Z,,--harmony_top_level_await doesn't work,31410
+novemberborn,2020-01-19T12:59:53Z,2020-01-18T15:14:05Z,,execArgv option to force TTY,31409
+frank-dspeed,2020-01-18T11:21:12Z,2020-01-18T11:21:12Z,,we should publish and compare benchmark results some where,31407
+ronag,2020-04-11T21:36:14Z,2020-01-17T19:48:31Z,,stream: 'prefinish' timing and 'finish' after 'close',31401
+Srinivas-Vemula,2020-01-17T11:12:32Z,2020-01-17T06:23:47Z,,Node 12: http response.close is always triggered,31394
+jaydenseric,2020-02-17T18:55:41Z,2020-01-17T01:09:07Z,,Unexpected await and Promise behavior,31392
+lmammino,2020-01-26T23:12:28Z,2020-01-16T20:38:59Z,,Make stream internal methods support promises / async await,31387
+nalply,2020-01-25T12:53:03Z,2020-01-16T16:26:16Z,,Parallel x.js and x.mjs in package confuses ES module loader when importing extension-less and using --experimental-specifier-resolution=node,31381
+aduh95,2020-04-01T21:20:24Z,2020-01-16T11:35:17Z,,doc: add note regarding net.Socket default timeout,31379
+natlibfi-arlehiko,2020-01-16T11:04:32Z,2020-01-16T10:37:00Z,,Hardcoded socket timeout,31378
+rodolfo3,2020-01-16T09:46:15Z,2020-01-15T19:59:52Z,,"Intl.DateTimeFormat ""short"" returns month with a period for ""pt-pt"" and ""pt-br""",31374
+developsessions,2020-01-21T10:39:54Z,2020-01-15T12:06:20Z,,const dummy = new ArrayBuffer(); RangeError at v8.js,31370
+cpcallen,2020-01-14T16:37:53Z,2020-01-14T12:26:19Z,,"Add utils.types.isArray, .isFunction and .isPlainObject",31353
+SheikhSajid,2020-04-01T21:20:25Z,2020-01-14T06:03:54Z,,fs: add statfs to fs,31351
+qntm,2020-01-13T22:15:39Z,2020-01-13T22:15:39Z,,Documentation for creating a `Buffer` which shares a `TypedArray`'s memory is misleading,31348
+joeywatts,2020-01-17T18:12:42Z,2020-01-13T18:16:33Z,,Cannot spawn command on Windows when path has special characters,31346
+zacard-orc,2020-01-14T12:32:59Z,2020-01-13T03:51:12Z,,win7 32bit spawn error on tryReadStart @net.js,31339
+richardlau,2020-01-12T19:43:10Z,2020-01-12T19:36:03Z,,compiler options for building OpenSSL dependency on Windows,31330
+Himself65,2020-01-12T18:17:48Z,2020-01-12T18:09:44Z,,[Build] Turn off the old GitHub Acitions when the latest one comes on Pull Request,31329
+DullReferenceException,2020-03-20T13:02:32Z,2020-01-11T01:20:41Z,,Request streams from http2 intermittantly not emitting end event,31309
+leor-gh,2020-02-14T22:29:01Z,2020-01-10T20:29:33Z,,new tls.TLSSocket issue,31305
+sam-github,2020-01-10T16:49:10Z,2020-01-10T16:48:23Z,,Investigate flaky test-cpu-prof-name,31298
+StephenLynx,2020-01-25T16:35:23Z,2020-01-09T19:09:24Z,,MEMORY LEAK on https module.,31285
+ljharb,2020-03-19T02:02:14Z,2020-01-09T18:53:23Z,,error message regression in node 13 vs 12,31284
+sam-github,2020-03-26T16:01:25Z,2020-01-09T17:10:06Z,,Investigate flaky test-http2-stream-destroy-event-order in CI,31281
+sam-github,2020-01-09T17:07:00Z,2020-01-09T17:06:11Z,,Investigate flaky test-worker-message-port-message-before-close in CI,31280
+sam-github,2020-01-10T17:43:38Z,2020-01-09T16:45:17Z,,security implications of legacy url.parse() should be more clearly documented,31279
+nazarhussain,2020-02-20T09:42:16Z,2020-01-09T16:20:16Z,,process.stdout cannot be JSON.stringify()ed because of circular dependency,31277
+jc-lab,2020-01-09T07:42:19Z,2020-01-08T09:27:11Z,,Inspector does not initialize when using CreateEnvironment,31258
+lundibundi,2020-04-01T21:20:26Z,2020-01-07T20:56:10Z,,errors: add ERR_INVALID_OPT_TYPE and support options in validators.js,31251
+devsnek,2020-02-13T10:31:11Z,2020-01-07T19:49:18Z,,"unable to build master, linking fails",31249
+aalexgabi,2020-01-10T15:36:27Z,2020-01-07T12:51:15Z,,Clarify behaviour when listening for 'error' event using once(),31244
+danger89,2020-01-07T22:54:49Z,2020-01-07T12:35:36Z,,OS API is missing available memory call in NodeJS,31243
+justinfagnani,2020-01-07T07:28:11Z,2020-01-07T00:08:16Z,,"Provide built-in implementations of module linker, initializeImportMeta, importModuleDynamically",31234
+SparshithNR,2020-01-08T01:28:21Z,2020-01-06T22:56:43Z,,rmdirsync doesn't throw error when symlinked path is passed as argument in windows node 12,31231
+mscdex,2020-01-06T21:55:41Z,2020-01-06T21:55:41Z,2020-03-13T12:08:46Z,Flaky test: wasi/test-wasi,31230
+bmeck,2020-04-01T21:20:26Z,2020-01-06T21:15:51Z,,WIP: Move ESM loaders to worker thread,31229
+sam-github,2020-02-01T20:54:20Z,2020-01-06T17:22:47Z,,flaky test-stream-pipe-after-end,31227
+sam-github,2020-01-08T03:40:56Z,2020-01-06T17:09:31Z,,tap2junit/build/python nightly failed with unicode problem,31225
+mscdex,2020-01-31T18:43:24Z,2020-01-06T05:48:13Z,,Flaky test: parallel/test-net-listen-after-destroying-stdin,31213
+Sebastien-Ahkrin,2020-04-01T21:20:27Z,2020-01-06T02:57:23Z,,lib: add String primordials,31209
+Sebastien-Ahkrin,2020-04-01T21:20:27Z,2020-01-06T02:43:14Z,,lib: add Int8Array primordials,31207
+Sebastien-Ahkrin,2020-04-01T21:20:27Z,2020-01-06T02:40:26Z,,lib: add Int32Array primordials,31206
+Sebastien-Ahkrin,2020-04-01T21:20:27Z,2020-01-06T02:37:12Z,,lib: add Int16Array primordials,31205
+Sebastien-Ahkrin,2020-04-01T21:20:28Z,2020-01-06T02:27:56Z,,lib: replace Float64Array global by the primordials,31203
+fraxken,2020-01-05T09:24:03Z,2020-01-03T15:06:47Z,,fs.mkdir/mkdirSync recursive hang with invalid windows character,31177
+jasnell,2020-01-02T22:42:36Z,2020-01-02T22:41:57Z,,net: deprecated server.connections still used in tests,31168
+mike-marcacci,2020-03-11T02:47:18Z,2020-01-01T00:31:07Z,,Proposal for more correct detection and reporting of unhandled promise,31148
+isaacs,2020-02-20T13:45:16Z,2019-12-31T01:16:41Z,,13.5 broke tap's error handling,31142
+ulitink,2019-12-30T19:36:17Z,2019-12-30T13:18:35Z,,Debugger.setInstrumentationBreakpoint is broken,31138
+ulitink,2020-04-01T21:20:28Z,2019-12-30T13:01:58Z,,test: check inspector command Debugger.setInstrumentationBreakpoint,31137
+devnexen,2020-04-01T21:20:28Z,2019-12-29T13:10:04Z,,deps: V8: cherrypick 4eee88051bd4 0aee27f5f753 cb51845b7440,31128
+devnexen,2020-04-01T21:20:28Z,2019-12-29T08:53:05Z,,deps: V8: cherry-pick a494bcfc880c,31126
+gabrielschulhof,2019-12-30T21:30:50Z,2019-12-28T22:05:24Z,,[v12.x] Consistent test-set-http-max-http-headers failure on FreeBSD,31125
+whhif,2020-03-08T06:20:38Z,2019-12-28T02:36:30Z,,crash on mipsel64 from v12.x,31118
+aravindvnair99,2019-12-31T05:30:51Z,2019-12-27T12:16:22Z,,Can't upgrade npm when using symbolic links,31111
+rektide,2019-12-27T09:52:14Z,2019-12-27T07:58:55Z,,accept Directory File Descriptors as a base for fs open & readdir,31110
+r1b,2020-01-01T12:51:38Z,2019-12-26T21:36:39Z,,net: explicitly paused socket does not emit `end` or `close`,31106
+gabrielschulhof,2020-02-17T22:57:35Z,2019-12-25T03:31:58Z,,Do not pass `napi_env` to async worker's execute callback,31088
+CrucialDrew,2020-01-04T17:08:19Z,2019-12-24T20:13:35Z,,http2 - allow option for setting the local window size of a session,31084
+addaleax,2019-12-24T22:50:49Z,2019-12-24T14:32:05Z,,Long stack traces in core,31080
+joyeecheung,2019-12-23T20:33:30Z,2019-12-23T20:30:39Z,,Remove circular dependency in code cache and snapshot building,31074
+legendecas,2020-04-01T21:20:29Z,2019-12-23T16:33:21Z,,inspector: add --inspect-allow-host option,31071
+homobel,2019-12-29T01:30:46Z,2019-12-23T13:47:40Z,,child_process normalizeSpawnArguments doesn't handle spaced arguments,31068
+trivikr,2020-01-04T04:14:57Z,2019-12-20T22:33:48Z,,"http2/write.js benchmark throws ""ERR_HTTP2_ERROR""",31048
+ronag,2020-04-01T21:20:30Z,2019-12-20T22:13:34Z,,stream: refactor Writable buffering,31046
+trivikr,2019-12-20T22:31:11Z,2019-12-20T22:05:12Z,,"Rscript throws error ""missing value where TRUE/FALSE needed"" when analyzing benchmarks",31045
+devsnek,2019-12-24T11:47:40Z,2019-12-20T17:53:40Z,,odd Python caching behaviour in make,31040
+BridgeAR,2020-04-01T21:20:30Z,2019-12-20T16:27:40Z,,fs: simplify copy operations and more cleanups,31038
+RomainLanz,2019-12-21T14:15:40Z,2019-12-20T15:21:27Z,,"Node.js abort the response if the body length do not match ""Content-Length"" during 304",31037
+wmertens,2019-12-21T02:26:12Z,2019-12-20T13:59:56Z,,"""node: src/unix/core.c:930: uv__io_stop: Assertion `loop->watchers[w->fd] == w' failed.""",31034
+MylesBorins,2020-04-02T21:28:51Z,2019-12-19T18:56:58Z,,Extend default logger with configuration,31031
+trivikr,2019-12-18T19:54:03Z,2019-12-18T16:14:41Z,,Running `benchmark/http/headers.js` fails with `HPE_HEADER_OVERFLOW`,31022
+codeman869,2020-04-01T21:20:32Z,2019-12-17T00:48:13Z,,process: add CLI opt to hide experimental warnings,31000
+sluukkonen,2019-12-16T21:45:21Z,2019-12-16T19:45:47Z,,Performance regression with libxmljs,30995
+coreyfarrell,2020-01-07T20:13:02Z,2019-12-16T18:29:12Z,,Worker threads: ability for tooling to pass data to workers and inject NODE_OPTIONS,30992
+underflow00,2020-02-16T22:36:13Z,2019-12-16T03:14:26Z,,`in` operator not working correctly when using Proxy as VM context,30985
+ronag,2019-12-15T14:18:08Z,2019-12-15T14:17:57Z,,http2: `HTTP2Session.destroy` signature differs from `stream.destroy`,30978
+Christilut,2020-01-25T06:24:35Z,2019-12-09T15:36:58Z,,Select another version dropdown bug,30969
+tniessen,2020-02-28T01:08:47Z,2019-12-14T04:40:09Z,,Secure memory: Yay or nay,30956
+Trott,2020-04-01T21:20:32Z,2019-12-13T23:44:25Z,,tools: remove lint-js.js,30955
+broofa,2019-12-15T16:24:15Z,2019-12-13T22:31:41Z,,Add [FRWX]_NONE constants for checking *lack* of access with fs.access(),30952
+bluelovers,2019-12-22T14:01:20Z,2019-12-13T21:58:54Z,,regexp lookBehind super slow,30951
+lbh8srv68,2020-01-05T20:43:15Z,2019-12-13T21:40:32Z,,Unable to build nodejs,30949
+ZFail,2020-03-02T09:52:11Z,2019-12-13T18:56:46Z,,fs callback functions return Errors without stack,30944
+lbh8srv68,2020-03-05T09:34:30Z,2019-12-13T11:52:12Z,,JavaScript performance regression,30933
+roblourens,2019-12-20T02:44:23Z,2019-12-12T23:48:56Z,,Very slow debug stepping in large file after Node 13.2,30926
+trusktr,2020-04-01T21:20:32Z,2019-12-12T21:22:13Z,,Add details regarding resolve hook parameters,30920
+targos,2019-12-13T21:33:39Z,2019-12-12T17:02:25Z,,v8::ArrayBuffer::Externalize and v8::ArrayBuffer::IsExternal are deprecated,30915
+arcanis,2020-03-22T02:58:19Z,2019-12-12T10:42:58Z,,Debugger isn't stopped at the `debugger;` statement when debugging using `--inspect`,30911
+ronag,2019-12-13T05:07:22Z,2019-12-11T19:54:09Z,,stream: normalized destroy(),30906
+roblourens,2019-12-20T03:18:30Z,2019-12-11T18:09:19Z,,Debugger doesn't pause again after stepping through blackboxed function,30903
+andrewnester,2019-12-23T20:59:50Z,2019-12-11T17:54:46Z,,Sending large amount of data to ServerResponse causes RSS and External memory leak,30902
+lomaster1,2020-04-01T13:52:24Z,2019-12-11T07:58:11Z,,TLS assertion error in DoWrite,30896
+niftylettuce,2019-12-27T14:28:30Z,2019-12-11T05:47:11Z,,"How to get the ""Date"" set on a response header for HTTP2?",30894
+weswigham,2020-04-01T21:20:33Z,2019-12-10T22:05:32Z,,[WIP] Support requiring .mjs files,30891
+ww9rivers,2020-01-07T05:07:36Z,2019-12-10T16:09:08Z,,Exception thrown in readline.createInterface with input stream,30885
+joyeecheung,2019-12-20T03:14:12Z,2019-12-10T15:29:53Z,,move things away from process.binding('util'),30884
+pd4d10,2020-04-01T21:20:33Z,2019-12-10T13:26:25Z,,build: use powershell for windows build,30881
+Sebmaster,2020-04-10T20:07:07Z,2019-12-10T08:06:51Z,,Segfault in v12.13.1 during GC,30875
+gn00616031,2019-12-10T18:33:03Z,2019-12-10T02:47:56Z,,NODE 12 will cause client throw SSL_R_TLSV1_ALERT_DECODE_ERROR,30874
+AndrewFinlay,2019-12-11T07:17:26Z,2019-12-09T23:30:52Z,,Exception message for assert(0) depends on whitespace,30872
+joaocgreis,2019-12-08T01:00:53Z,2019-12-08T00:59:26Z,,Investigate flaky test parallel/test-http2-compat-client-upload-reject,30847
+joaocgreis,2019-12-08T01:02:27Z,2019-12-08T00:46:14Z,,Investigate flaky test parallel/test-http2-multistream-destroy-on-read-tls,30845
+coreyfarrell,2020-03-12T19:05:04Z,2019-12-07T18:15:05Z,,repl / eval: CommonJS globals leak into ESM modules,30842
+ronag,2020-01-06T10:32:29Z,2019-12-07T17:08:44Z,,net: `write(cb)` not called if `destroy()`:ed before `'connect'`,30841
+ronag,2020-03-10T19:24:41Z,2019-12-07T12:40:45Z,,net: pending socket re-use,30832
+fmcarvalho,2020-04-02T20:42:31Z,2019-12-07T11:23:35Z,,readline.createInterface() is missing error handling for input stream,30831
+ZFail,2020-01-17T09:11:53Z,2019-12-06T15:55:08Z,,Wrong async stack trace,30822
+mbroadst,2019-12-06T14:41:03Z,2019-12-06T13:40:18Z,,introduced fine-grained ability to control TCP socket establishment,30821
+luokuning,2019-12-11T02:53:55Z,2019-12-06T09:26:18Z,,May cause MaxListenersExceededWarning when server add clientError listener,30820
+juanarbol,2020-04-07T00:39:38Z,2019-12-06T03:53:26Z,,src: deprecate errname method at runtime,30816
+coreyfarrell,2020-03-09T16:54:26Z,2019-12-05T18:00:10Z,,Ability to suppress warnings by type (or just experimental warnings),30810
+pd4d10,2019-12-07T16:38:17Z,2019-12-05T05:35:06Z,,make all experimental warning messages consistent,30803
+matthieusieben,2020-01-28T19:35:10Z,2019-12-04T20:26:08Z,,Readable stream destroyed while reading,30794
+legendecas,2019-12-04T07:14:19Z,2019-12-04T07:14:19Z,,perf_hooks: trace http statistics with `trace_events`,30790
+rvagg,2020-04-08T01:32:12Z,2019-12-04T05:03:35Z,,addons/openssl-binding/test very flaky on ARM,30786
+caub,2019-12-13T05:22:03Z,2019-11-29T18:33:49Z,,Skip expressions inspection in REPL,30717
+marechal-p,2019-12-03T01:41:32Z,2019-11-28T13:49:13Z,,child_process: ERR_INVALID_ARG_TYPE on .kill(),30702
+supperchong,2019-12-13T05:15:23Z,2019-11-28T11:50:16Z,,readline: readline.close()  result in  process.stdout is  unexpected ,30701
+targos,2019-11-29T11:40:18Z,2019-11-28T07:16:05Z,,Migration of core modules to primordials,30697
+davidhouweling,2020-04-01T21:20:34Z,2019-11-28T01:51:01Z,,build: fix static dll compilation on Windows,30695
+puzpuzpuz,2019-12-08T10:39:13Z,2019-11-27T15:10:23Z,,buffer: implement pooling mechanism for Buffer.allocUnsafe,30683
+targos,2019-12-03T20:55:06Z,2019-11-27T14:54:25Z,,Worker eval as ES Module,30682
+sam-github,2020-04-01T21:20:34Z,2019-11-26T21:13:11Z,,crypto: expose certificate decoding function,30675
+guybedford,2019-11-28T22:49:26Z,2019-11-26T20:56:45Z,,Sharing package.json and stat cache between CJS and ESM loaders,30674
+jgehrcke,2019-12-03T01:43:26Z,2019-11-26T17:49:25Z,,child_process kill() swallows synchronously known problems (does not error out),30668
+BridgeAR,2020-04-01T21:20:34Z,2019-11-26T14:47:29Z,,buffer: use dynamic buffer pool,30661
+gireeshpunathil,2020-02-26T07:53:12Z,2019-11-26T12:24:10Z,,investigate flaky sequential/test-perf-hooks in CI,30658
+apparebit,2019-11-28T00:14:37Z,2019-11-25T23:41:35Z,,"readdir(p, { withFileTypes: true }) seemingly returns wrong type",30646
+tniessen,2019-11-25T19:52:59Z,2019-11-25T18:55:59Z,,child_process normalization logic can be bypassed,30640
+gabrielschulhof,2019-12-03T01:41:17Z,2019-11-25T18:29:31Z,,v10.x CI failures,30639
+ronag,2020-03-10T19:25:20Z,2019-11-24T13:00:04Z,,stream: `autoDestroy: true`,30625
+gireeshpunathil,2020-01-05T00:38:32Z,2019-11-24T06:42:27Z,,investigate flaky test-inspector-wait-for-connection in Ci,30619
+ronag,2019-11-23T22:32:36Z,2019-11-22T22:13:14Z,,stream: Transform questions,30605
+guybedford,2020-03-12T17:50:31Z,2019-11-22T20:16:23Z,,Better not found errors for ESM,30603
+bmeck,2020-04-01T21:20:35Z,2019-11-22T16:22:01Z,,esm: decouple json modules from cjs cache,30592
+greggman,2019-12-27T00:02:05Z,2019-11-21T11:55:53Z,,fs.copyFile does not actually do a full copy,30575
+ccorcos,2019-11-20T19:16:37Z,2019-11-20T06:23:22Z,,Garbage collector goes unstable with a repetitive task,30554
+BridgeAR,2019-11-20T14:02:35Z,2019-11-19T20:18:42Z,,parallel/test-tls-connect-address-family.js times out,30550
+BridgeAR,2019-11-19T18:45:49Z,2019-11-19T16:04:33Z,,Test failures in case of used ports,30546
+mabels,2020-03-19T00:21:05Z,2019-10-09T10:12:28Z,,Workaround to prevent ICU trouble,30544
+lbh8srv68,2019-11-21T23:35:10Z,2019-11-18T20:41:31Z,,libuv is unable to clear the console on win 10,30535
+gireeshpunathil,2019-11-18T13:06:05Z,2019-11-18T12:52:45Z,,investigate flaky test-cluster-dgram-ipv6only (CI),30527
+gireeshpunathil,2019-11-18T12:54:59Z,2019-11-18T12:32:23Z,,potential memory corruption in test-npm-install (CI),30526
+gireeshpunathil,2020-03-12T01:06:00Z,2019-11-18T12:18:33Z,,Assertion failed in src/async_wrap.cc:144 (test-inspector-connect-main-thread),30525
+gireeshpunathil,2019-11-18T12:13:57Z,2019-11-18T12:11:42Z,,investigate flaky cctest in CI,30524
+gireeshpunathil,2019-11-20T06:20:52Z,2019-11-18T12:10:26Z,,investigate flaky test-http-set-trailers in CI,30523
+gireeshpunathil,2019-11-27T21:34:09Z,2019-11-18T08:01:27Z,,investigate flaky test-inspector-contexts in CI,30519
+SimonSchick,2020-04-01T21:20:35Z,2019-11-17T06:00:56Z,,util: add filter predicate for inspect,30511
+rykdesjardins,2019-11-20T00:12:47Z,2019-11-17T02:07:03Z,,"Passing fd between threads causes VM to crash, or EBADF ",30507
+meelash,2020-04-01T21:20:36Z,2019-11-16T23:14:41Z,,Consistency of method naming,30506
+szmarczak,2019-11-15T18:34:22Z,2019-11-15T18:34:22Z,,Expose `request._header` as a public member,30496
+Mitschiro,2020-03-21T01:29:35Z,2019-11-15T12:51:48Z,,console.log failure while working with worker threads.,30491
+brainsiq,2019-12-23T11:06:17Z,2019-11-15T12:10:50Z,,doc: http.ServerResponse close event,30489
+jbemmel,2019-11-26T17:02:24Z,2019-11-14T17:41:29Z,,Module loader does not allow parameters in data: URIs,30488
+GaryGSC,2020-03-12T19:11:45Z,2019-11-14T07:16:45Z,,[v10.x backport] dgram: add support for UDP connected sockets,30480
+dothebart,2019-12-05T06:40:40Z,2019-11-13T10:35:15Z,,UTF8 chars in ICU full and Windows,30461
+QuentinFAIDIDE,2020-01-20T06:52:25Z,2019-11-13T02:40:16Z,,Silent JSON.parse() crash when reading multiple large files very fast.,30456
+devsnek,2020-04-01T21:20:36Z,2019-11-12T06:30:54Z,,src: add support for top level await,30370
+apaprocki,2020-04-01T21:20:36Z,2019-11-12T01:10:42Z,,doc: document ICU time zone data update process,30364
+SukkaW,2020-02-17T16:11:23Z,2019-11-08T16:27:37Z,,Performance of WHATWG URL API,30334
+patricknick,2019-11-18T10:35:08Z,2019-11-08T15:35:26Z,,Segfault in nodejs 10.15.3 / 10.17.0 under RHEL,30331
+gabrielschulhof,2019-11-27T22:10:09Z,2019-11-07T18:40:49Z,,Introduce status `napi_cannot_call_into_js`,30327
+rc-matthew-l-weber,2019-11-19T14:02:51Z,2019-11-06T19:22:51Z,,PPC32 port guidance,30323
+xefimx,2020-04-01T21:20:37Z,2019-11-06T18:46:27Z,,test: source_map_cache serialization shutdown coverage,30322
+ulfgebhardt,2020-03-17T09:39:21Z,2019-11-06T12:01:02Z,,Temporary Memory Leak with Async Iterators in For Await X of Y,30298
+saitonakamura,2020-04-07T16:12:57Z,2019-11-06T11:23:06Z,,doc: add Powershell oneliner to get Windows version,30289
+alexahdp,2019-11-06T17:49:39Z,2019-11-06T10:26:31Z,,Tests failed in ubuntu inside the docker,30278
+TrevTheDev,2019-11-25T07:16:06Z,2019-11-04T03:15:16Z,,stdout data event fails to get fired,30244
+devsnek,2019-11-15T18:44:22Z,2019-11-03T17:46:13Z,,Custom github autolinks,30238
+btsimonh,2019-11-02T18:46:54Z,2019-11-02T18:34:42Z,,Inconsistent results for path.toNamespacedPath() for win32 UNC paths,30224
+schalkneethling,2019-12-11T17:51:15Z,2019-11-02T17:24:05Z,,Inconsistency between new URL behavior in Nodejs and browser,30223
+addaleax,2020-04-01T21:20:38Z,2019-10-31T22:42:42Z,,build: use --whole-archive for pthread with --fully-static,30199
+mpark86,2019-11-22T17:51:49Z,2019-10-31T00:10:16Z,,Improve test/js-native-api/test_bigint/test.js,30185
+bgnx,2019-10-31T22:39:33Z,2019-10-30T14:51:25Z,,Cannot compile node,30180
+btsimonh,2020-01-27T19:15:09Z,2019-10-30T09:33:03Z,,12.13.0 build from scratch fails on RPi3 Raspian,30174
+ktalebian,2020-01-20T05:03:03Z,2019-10-29T23:34:36Z,,`make -j4` failing on CentOS building node12 from sourcefile,30170
+jkrems,2019-10-29T21:31:56Z,2019-07-23T15:53:47Z,,Handle windows-style bare specifiers in exports,30169
+targos,2019-12-03T06:53:19Z,2019-10-28T11:14:50Z,,V8 CI is not Python 3 compatible,30152
+nschonni,2019-11-02T02:35:56Z,2019-10-25T03:17:48Z,,Official strategy for caching of native packages,30139
+joyeecheung,2019-10-25T15:36:38Z,2019-10-25T15:28:21Z,,suggested updates to the onboarding doc,30116
+SetTrend,2019-10-31T02:21:19Z,2019-10-25T13:59:50Z,,DevTools installation on Windows 10x64 begins with a PowerShell exception,30112
+dilyanpalauzov,2019-10-25T18:43:27Z,2019-10-25T13:51:38Z,,symlink out/Release/lib.target → out/Release/lib needs to be created manually before “make install”,30111
+orgads,2019-10-24T11:09:07Z,2019-10-24T07:09:19Z,,Support unpipe for pipeline,30104
+leonovalex,2020-01-20T05:00:30Z,2019-10-23T13:06:32Z,,Out of memory when only little memory consumed,30086
+justrajeshkp,2019-11-29T18:26:55Z,2019-10-23T06:30:40Z,,Switching to REPL in inspect is cumbersome,30078
+watson,2020-04-01T21:20:38Z,2019-10-22T13:51:44Z,,process: set process.env prototype to null,30063
+abbshr,2019-12-16T03:47:24Z,2019-10-22T13:09:39Z,,worker thread expose its tid,30061
+joyeecheung,2020-04-01T21:20:39Z,2019-10-22T10:42:32Z,,boostrap: polyfill globalThis internally and stop using global,30058
+rvagg,2020-04-01T21:20:39Z,2019-10-22T09:48:33Z,,"build,test: add .ci.yml for containered tests (WIP proposal)",30057
+tniessen,2020-04-01T21:20:39Z,2019-10-20T17:13:32Z,,crypto: add keyObject.params for asymmetric keys,30045
+Pravv,2019-12-26T08:52:36Z,2019-10-19T20:31:50Z,,--use-strict flag doesn't apply strict mode to script,30039
+daviehh,2020-03-25T18:30:09Z,2019-10-18T22:23:56Z,,possible libuv issue with macos 10.15: empty udp message not registering,30030
+exx8,2019-10-18T12:01:58Z,2019-10-18T08:46:38Z,,fs.chmod behaviour should change to be more expected across platforms,30019
+Phrogz,2019-10-19T07:44:00Z,2019-10-17T15:36:51Z,,IPC deferred with larger payloads (macOS only),30009
+watson,2020-04-01T21:20:40Z,2019-10-17T14:55:14Z,,child_process: harden the API,30008
+pfarkya,2019-10-31T17:30:17Z,2019-10-17T06:48:16Z,,url.format and url.parser not giving reversible result,30002
+edreal,2020-03-02T16:27:00Z,2019-10-17T05:55:17Z,,Node.js v12.12 immediately resolving promises long delay,30001
+awwright,2019-11-03T11:46:25Z,2019-10-15T21:43:24Z,,makeDuplexPair should be the default stream paradigm,29986
+rvagg,2019-10-23T02:18:04Z,2019-10-15T03:55:10Z,,test-process-uid-gid.js (& euid-egid) failing in Node.js 10.x on Alpine 3.9 with Ubuntu 18.04 hosts,29977
+gabrielschulhof,2019-12-01T07:55:37Z,2019-10-13T14:40:05Z,,n-api: need ability to detach an ArrayBuffer with a key,29954
+jonjaques,2019-10-14T19:27:09Z,2019-10-12T22:14:35Z,,FSWatcher.close() incurs a big performance cost in >=10.16,29949
+fu-hsi,2019-10-12T19:30:41Z,2019-10-12T08:12:50Z,,Socket factory method for net.Server,29944
+UnleashedMind,2019-10-13T15:28:58Z,2019-10-11T22:01:56Z,,"# Fatal error in , line 0 #Check failed: stack_overflow() ",29939
+sogaani,2019-10-16T08:56:40Z,2019-10-11T09:59:00Z,,Http2Stream emit connection related 'error' after receiving all data of stream.,29929
+joyeecheung,2020-01-06T14:42:03Z,2019-10-11T05:47:27Z,,Refactor Worker and NodeMainInstance class to reuse code,29925
+lomaster1,2020-02-06T07:36:53Z,2019-10-09T10:08:26Z,,Http2 Segmentation fault,29902
+Zirak,2020-04-01T21:20:40Z,2019-10-08T20:37:38Z,,net: support passing a host with port to Server.prototype.listen,29891
+bcoe,2020-02-25T15:43:56Z,2019-10-06T23:13:12Z,,Future work for source-map functionality,29865
+mildsunrise,2020-03-27T01:09:06Z,2019-10-06T12:01:54Z,,HTTP/2 Host header disallowed,29858
+ronag,2019-10-08T16:30:54Z,2019-10-06T09:41:31Z,,stream: How to destroy and stop Readable?,29856
+bcoe,2019-11-03T21:42:09Z,2019-10-05T18:03:56Z,,We could use your help improving Node.js' Windows testing,29852
+legendecas,2019-10-18T05:48:14Z,2019-10-05T03:32:35Z,,n-api error status discussion,29849
+patoi,2019-10-04T08:38:42Z,2019-10-04T08:37:53Z,,Node.js v10.16.3 and npm 6.11.3 with npm ci produces a MODULE_NOT_FOUND error,29841
+richardlau,2020-04-01T21:20:41Z,2019-10-04T03:56:08Z,,test: add junit output option to test runner,29840
+sogaani,2020-01-28T05:24:12Z,2019-10-03T04:26:28Z,,The differences between http2 compatibility API and http[s],29829
+gabrielschulhof,2019-10-04T14:56:07Z,2019-10-02T22:51:41Z,,Benchmark Popularity Survey,29821
+jasnell,2020-01-09T16:40:33Z,2019-10-02T20:46:48Z,,[Tracking Issue] OpenSSL 3,29817
+cclauss,2019-11-03T21:42:09Z,2019-10-02T11:09:41Z,,configure.py: upgrade from optparse to argparse,29813
+mysticatea,2020-03-12T17:50:23Z,2019-10-02T07:59:46Z,,import(cjs) with query strings has odd behavior,29812
+sam-github,2020-04-08T15:46:12Z,2019-10-01T17:51:18Z,,flaky test-http2-reset-flood on freebsd,29802
+Z3TA,2019-10-02T22:14:14Z,2019-10-01T06:32:43Z,,"requires - require modules securely (restricted access to fs,net, etc)",29788
+bastien-roucaries,2020-04-01T21:20:42Z,2019-09-30T20:54:09Z,,Allow to configure node path,29782
+devsnek,2020-04-01T21:20:43Z,2019-09-30T15:42:39Z,,readline: add postprocess callback,29779
+bastien-roucaries,2019-09-30T20:54:33Z,2019-09-30T14:01:15Z,,Patch shipped from debian/ubuntu,29775
+Trott,2019-10-09T22:24:56Z,2019-09-30T02:45:06Z,,meta: permit Travis for doc-only changes instead of lite-pipeline CI job?,29770
+jacott,2019-10-01T03:21:09Z,2019-09-29T23:35:09Z,,FATAL archived threads in combination with wasm not supported,29767
+joyeecheung,2019-11-03T14:05:56Z,2019-09-29T23:29:42Z,,Performance regression in v12 caused by primordials,29766
+wetndusty,2019-09-29T17:55:09Z,2019-09-16T11:15:22Z,,Samples not language aware,29739
+ORESoftware,2020-03-29T03:19:09Z,2019-09-27T00:45:30Z,,display node.js version (process.version) at the end of stacktraces,29731
+DanielRuf,2019-12-17T00:12:33Z,2019-09-26T07:29:54Z,,Better description of statuscode handling and improve example,29714
+olalonde,2019-10-02T12:58:43Z,2019-09-25T17:22:18Z,,Cryptographically secure random integer in range,29707
+davidje13,2019-09-28T16:01:01Z,2019-09-25T13:17:28Z,,http.ClientRequest with Upgrade header sometimes hangs on first request,29701
+mafintosh,2019-10-11T21:24:16Z,2019-09-25T12:51:15Z,,stream.finished behaviour change,29699
+XhmikosR,2019-09-24T15:29:17Z,2019-09-24T15:29:17Z,,doc: make tables responsive,29692
+sashberd,2019-10-29T13:01:17Z,2019-09-24T11:51:39Z,,After update to Node 10-alpine - ERR_STREAM_CANNOT_PIPE,29690
+Qualtagh,2020-01-24T18:39:15Z,2019-09-23T18:09:24Z,,Impossible to catch error during tls.connect(duplex),29678
+lholmquist,2020-04-01T21:20:43Z,2019-09-23T14:17:43Z,,process: deprecate process._tickCallback,29671
+ronag,2020-04-01T21:20:44Z,2019-09-22T21:04:31Z,,stream: construct,29656
+risacher,2019-09-24T08:30:27Z,2019-09-20T15:36:07Z,,Verification of client cert checks issuer chain past trusted CA,29630
+DerekNonGeneric,2019-10-04T18:43:52Z,2019-09-19T01:28:18Z,,doc: ES module dummy loader resolve hook bug on Windows,29610
+BridgeAR,2020-04-01T21:20:46Z,2019-09-17T17:24:49Z,,"console,util: revert #23162",29592
+Artoria2e5,2020-04-01T21:20:47Z,2019-09-16T11:20:35Z,,child_process: escape args[] for shell,29576
+marktyers,2019-12-06T11:24:18Z,2019-09-14T07:36:57Z,,Node Debugger Caught in Loop When Debugging Async Functions,29556
+mcpiroman,2020-04-01T21:20:47Z,2019-09-14T06:16:33Z,,add missing sigemptyset() to init sigset_t,29554
+MaledongGit,2020-02-20T00:11:51Z,2019-09-13T23:53:55Z,,Global-based Variable will generate strange characters,29551
+jfet97,2020-04-01T21:20:47Z,2019-09-13T13:31:15Z,,stream: change how the AsyncIteratorPrototype is set up on ReadableStreams,29544
+bnb,2019-10-10T20:10:15Z,2019-09-12T22:24:28Z,,util: change in console.log() output ,29539
+awtcode,2019-11-25T10:07:39Z,2019-09-12T06:37:16Z,,Process out of memory error when creating a Wasm module,29533
+Artoria2e5,2019-09-16T02:29:19Z,2019-09-12T03:45:39Z,,child_process should individually escape args[] on shell: true,29532
+canterberry,2019-09-12T00:22:12Z,2019-09-12T00:09:24Z,,Release signing keys may be poisoned,29531
+StephenLynx,2020-01-12T10:56:08Z,2019-09-11T19:42:17Z,,HTTP2 compatibility layer issues with invalid streams,29529
+bmeck,2020-04-01T21:20:48Z,2019-09-11T15:39:08Z,,policy: add startup benchmark and make SRI lazier,29527
+everett1992,2020-04-01T21:20:48Z,2019-09-10T18:36:55Z,,lib: add Timer/Immediate to promisifyed setTimer/setImmediate,29521
+bmeck,2020-04-01T21:20:48Z,2019-09-10T15:26:21Z,,"policy: feature preloadAlways , preloadAllowed",29519
+chancancode,2020-03-03T11:43:23Z,2019-09-07T05:06:48Z,,Better Signal Handling,29480
+MaledongGit,2020-04-01T21:20:48Z,2019-09-06T08:19:42Z,,cluster: remove the useless parameter for master,29470
+bnoordhuis,2020-03-09T17:26:47Z,2019-09-05T19:17:07Z,,"fs,macos: fs.watch() behavior change in node >= 10.16.0",29460
+sleonovich,2019-10-05T08:20:54Z,2019-09-05T08:31:25Z,,Unified utc nanoseconds timestamp: os.get_utc_time(),29448
+ronag,2019-09-17T09:31:16Z,2019-09-04T15:33:32Z,,stream: pipeline stream functions,29436
+pgherveou,2019-09-10T17:37:07Z,2019-09-03T20:01:50Z,,for await & Readable,29428
+tufosa,2019-09-06T15:33:02Z,2019-09-03T13:21:34Z,,Emission of secure events changed across versions of node,29421
+cclauss,2019-11-06T11:36:53Z,2019-09-03T07:41:21Z,,Tests do not test ./configure --ninja,29415
+tarruda,2020-04-01T21:20:49Z,2019-09-02T18:58:05Z,,child_process: add 'overlapped' stdio flag,29412
+nschonni,2020-04-01T21:20:49Z,2019-09-02T17:49:59Z,,doc: convert HTML tables to markdown,29411
+ronag,2019-09-06T11:24:09Z,2019-09-01T17:47:27Z,,Readable stream API,29396
+orgads,2019-10-20T01:44:16Z,2019-09-01T14:12:54Z,,Keepalive prevents garbage collection on unread responses,29394
+legendecas,2019-09-04T18:52:43Z,2019-09-01T07:57:09Z,,Inspect error instance with no stacktrace wrapped with brackets,29391
+Hakerh400,2019-09-01T13:26:19Z,2019-08-31T18:46:58Z,,Uncaught error stack trace is misformatted on some platforms,29387
+Slayer95,2019-11-27T16:10:54Z,2019-08-31T06:53:17Z,,Looping async functions with Promise.race() allocates excessive memory,29385
+trivikr,2019-09-10T08:44:23Z,2019-08-29T16:46:15Z,,doc: how to document multiple inheritance,29368
+mscdex,2020-04-04T20:45:39Z,2019-08-27T15:00:02Z,2020-04-13T15:08:46Z,Flaky test: parallel/test-tls-ticket-cluster,29341
+verdaster,2020-01-04T03:00:20Z,2019-08-26T16:42:08Z,,Different behavior of async_hooks between Node 10 and 12 version,29323
+ronag,2019-09-05T20:37:13Z,2019-08-25T16:27:15Z,,stream: standardize async initialization,29314
+ronag,2019-08-25T17:47:19Z,2019-08-25T12:30:18Z,,stream: buffering and highWaterMark,29310
+steveswork,2020-03-28T05:42:03Z,2019-08-23T20:40:02Z,,Running global npm scripts in node 12.9.0: This command not found error.,29287
+Jiri-Mihal,2019-09-02T11:17:03Z,2019-08-22T15:57:55Z,,NodeJS blocks response from CONNECT,29271
+jzombie,2019-11-29T12:12:15Z,2019-08-22T10:52:29Z,,fs.read documentation errors,29266
+underflow00,2019-08-26T18:40:00Z,2019-08-21T15:59:35Z,,`socket.setTimeout` destroys connection automatically,29248
+haiyangwu,2019-08-29T10:20:00Z,2019-08-21T03:30:26Z,,Creation of full duplex pipe via spawn causes deadlock on Windows,29238
+trivikr,2019-10-01T17:51:51Z,2019-08-20T20:43:42Z,,Use GitHub Actions for writing a stale action,29232
+ronag,2019-08-22T18:50:51Z,2019-08-20T19:38:23Z,,http2 compat missing writableFinished,29230
+mcollina,2020-04-01T21:20:50Z,2019-08-20T14:35:57Z,,http: emit ERR_STREAM_DESTROYED if the socket is destroyed,29227
+bnoordhuis,2019-12-17T17:07:35Z,2019-08-20T12:48:51Z,,tools: check-imports.py false negatives,29226
+mvcbox,2019-10-14T11:22:20Z,2019-08-17T20:46:04Z,,Performance issue with Array.prototype.shift() in v12.x.x,29187
+panva,2020-01-25T14:26:20Z,2019-08-17T11:50:50Z,,crypto: expose tls's x509 Certificate Object,29181
+metaa,2019-08-16T15:32:34Z,2019-08-16T12:49:58Z,,Save REPL history before evaluating input,29162
+bnoordhuis,2019-08-17T04:23:42Z,2019-08-16T10:43:12Z,,tools: test.py -p tap reported test count off-by-two ,29160
+coreyfarrell,2019-08-14T09:46:28Z,2019-08-13T15:06:09Z,,Straight-forward way to reimplement `fs.promises.open`,29109
+NickNaso,2020-04-01T21:20:52Z,2019-08-12T10:32:13Z,,n-api: set the 'length' property of functions,29093
+cefn,2019-08-19T21:12:41Z,2019-08-10T18:20:07Z,,Step Into for Generator Function triggers Continue,29079
+joaocgreis,2019-08-10T08:56:15Z,2019-08-09T12:32:31Z,,Issues with net.Server when using a pipe,29069
+ronag,2020-02-12T16:55:20Z,2019-08-09T12:24:09Z,,net & fs close after destroy,29067
+ronag,2019-08-09T11:09:40Z,2019-08-09T07:05:56Z,,destroySoon?,29062
+ORESoftware,2020-03-21T08:35:47Z,2019-08-08T17:55:07Z,,Domains on rejected promises in unhandledRejection handler,29051
+mgartner,2019-10-16T09:18:49Z,2019-08-07T22:55:36Z,,"Non-heap memory leak in node:10.15.3-alpine, node:10.16.0-alpine",29038
+ronag,2019-08-11T12:50:56Z,2019-08-06T10:31:22Z,,http: ClientRequest streamlike,29002
+niieani,2019-08-09T23:19:25Z,2019-08-06T10:27:03Z,,Cancerous memory consumption under specific circumstances,29001
+Jamesernator,2019-08-06T11:33:12Z,2019-08-06T09:41:17Z,,[Suggestion] Add option to allow setting process name based on --inspect-brk=0 random port,28998
+ronag,2019-08-06T09:38:12Z,2019-08-06T09:21:58Z,,stream: async stream iterator doesn't throw premature close?,28994
+anthony-tuininga,2019-10-25T07:10:51Z,2019-08-06T01:39:21Z,,N-API: memory leak with call to napi_create_function,28988
+szmarczak,2020-02-12T22:53:00Z,2019-08-05T17:31:46Z,,Reusing TLS sessions causes to `socket.servername` being false,28985
+MKRhere,2019-08-06T11:30:36Z,2019-08-05T10:51:58Z,,EADDRINUSE swallowed silently in WSL,28972
+ronag,2019-08-05T13:29:06Z,2019-08-05T10:12:58Z,,http: OutgoingMessage instanceof Writable,28971
+ronag,2020-03-10T19:31:40Z,2019-08-05T09:56:47Z,,http: OutgoingMessage streamlike,28969
+szmarczak,2019-08-31T10:30:14Z,2019-08-05T09:32:55Z,,Add an `error` argument for HTTP2 session close event,28966
+mucsi96,2019-08-11T16:42:22Z,2019-08-02T20:36:58Z,,require is 3.54x times slower on Windows compared to Linux on same machine,28946
+ChALkeR,2020-04-01T21:20:53Z,2019-08-02T14:17:47Z,,process: add .stillSynchronous,28941
+frankpf,2019-08-02T14:57:13Z,2019-08-01T23:48:46Z,,Support TLS 1.3 0-RTT,28931
+StephenLynx,2019-08-07T21:16:55Z,2019-08-01T22:33:18Z,,HTTP2 compatibility layer tries to write the header multiple times.,28930
+boneskull,2019-08-22T23:14:41Z,2019-07-26T20:07:46Z,,proposal: new release blog,28868
+KevinEady,2019-12-30T15:14:19Z,2019-07-24T16:44:38Z,,Cannot build static dll on windows v12.7.0,28845
+davidflanagan,2020-02-19T00:07:34Z,2019-07-23T17:39:55Z,,Contexts created with vm.createContext() do not define the URL() constructor,28823
+Trott,2020-01-09T17:03:14Z,2019-07-22T13:15:55Z,,Investigate flaky test-stdout-close-catch on FreeBSD in CI,28803
+trivikr,2019-12-10T18:29:06Z,2019-07-21T15:21:36Z,,Use stale bot for commenting on stale issues/PRs in Node.js core repo,28798
+gengjiawen,2019-07-22T14:03:23Z,2019-07-21T08:48:18Z,,Improve ERR_INVALID_CHAR error info,28797
+laino,2019-07-27T05:18:32Z,2019-07-20T19:43:54Z,,Memory leak with debugger running.,28787
+mmarchini,2019-07-21T21:17:53Z,2019-07-20T00:30:45Z,,Inspector Protocol event `Runtime.exceptionThrown` is never fired,28775
+baekrxnn,2020-04-01T21:20:53Z,2019-07-19T17:53:08Z,,timers: add getActiveTimers that returns all active timers,28769
+Xotic750,2019-08-09T10:43:27Z,2019-07-19T15:05:26Z,,util.isDeepStrictEqual regex comparison,28766
+A-312,2019-07-26T16:18:31Z,2019-07-17T09:58:09Z,,Improve module.createRequire documentation,28730
+Fishrock123,2019-07-22T18:09:00Z,2019-07-17T01:13:19Z,,bad Buffer conversion behaviour due to Uint8Array inheritance,28725
+crystalin,2020-01-12T12:32:33Z,2019-07-16T00:48:35Z,,Segfault at a0 in Node v12.6.0,28712
+ronag,2020-03-15T00:24:23Z,2019-07-15T23:02:29Z,,emit after 'error',28710
+ronag,2019-07-28T05:52:30Z,2019-07-14T20:01:57Z,,http: ClientRequest.destroy does not take agent into account,28686
+ronag,2019-07-28T05:52:55Z,2019-07-14T19:40:08Z,,http: ClientRequest might never emit close if has agent and is aborted,28684
+ianstormtaylor,2019-07-14T19:47:02Z,2019-07-13T21:49:45Z,,attach `req` as `res.req`,28673
+pavelfeldman,2019-07-14T19:42:21Z,2019-07-13T05:25:29Z,,"inspector.open(0, undefined, /* wait */true) won't allow communicating inspector.url()",28663
+nfantone,2019-07-14T19:17:00Z,2019-07-12T16:35:24Z,,fs.access throws permission error while checking W_OK on writable dir,28656
+silverwind,2019-12-26T16:11:14Z,2019-07-11T06:59:32Z,,perf_hooks: expose `performance` global,28635
+murgatroid99,2019-12-14T00:57:00Z,2019-07-11T01:26:05Z,,There appears to be a bug with the http2 header decoding,28632
+isiahmeadows,2019-07-27T00:56:49Z,2019-07-10T02:32:29Z,,Support file descriptors as `fs.copyFile`/etc. sources and destinations,28618
+srcmake,2020-01-31T16:00:39Z,2019-07-09T01:53:21Z,,[C++ Lint Rule] #define indentation is Inconsistent,28605
+vsemozhetbyt,2019-09-23T21:10:00Z,2019-07-07T18:09:08Z,,doc: undocumented properties are mentioned in the stream doc,28592
+cakoose,2020-03-15T02:39:52Z,2019-07-06T00:09:02Z,,Object property delete/set in loop got very slow in Node 12 (quadratic?),28571
+amcheshire,2019-07-08T13:46:38Z,2019-07-05T17:49:19Z,,Missing lines when using readline Interface as AsyncIterable,28565
+chaffeqa,2019-08-09T22:37:36Z,2019-07-05T13:10:40Z,,Node >= 12.5 OSX memory spike,28558
+rvagg,2019-07-06T05:58:03Z,2019-07-05T00:54:41Z,,Fully decorated fs.promises for complete fs replacement?,28545
+crisefd,2020-03-20T10:07:11Z,2019-07-04T15:34:48Z,,npm commands always throwing Segmentation Fault,28536
+bnoordhuis,2019-07-22T19:35:18Z,2019-07-03T19:53:51Z,,crypto: DH prime for bits <= 15 is always 35963,28527
+Himself65,2020-04-01T21:20:54Z,2019-07-03T09:02:48Z,, fs: add WriteStream.prototype.flush,28519
+sam-github,2019-07-22T19:11:37Z,2019-07-02T21:41:19Z,,Investigate flaky tests on AIX,28517
+bnoordhuis,2019-07-07T12:21:32Z,2019-07-02T18:14:35Z,,fs: add WriteStream.prototype.fsync,28513
+TrevorSundberg,2019-07-11T06:26:36Z,2019-07-01T23:10:52Z,,SIGTERM handler does not run if there are no tasks running and exit code is always 0,28502
+davidmarkclements,2020-04-01T21:20:55Z,2019-07-01T21:06:05Z,,stream: add Transform.by utility function,28501
+ulitink,2019-07-01T22:32:57Z,2019-07-01T13:11:46Z,,Restart frame is broken,28493
+viktor-ku,2020-04-01T21:20:55Z,2019-06-30T15:44:28Z,,Implement URL.from,28482
+gabrielschulhof,2020-04-01T21:20:56Z,2019-06-28T07:14:10Z,,n-api: add napi_get_module(),28464
+Lonniebiz,2019-09-11T05:28:29Z,2019-06-27T18:39:34Z,,Time Zone Bug ('Antarctica/DumontDUrville'),28455
+joyeecheung,2020-04-01T21:20:56Z,2019-06-27T16:21:46Z,,src: print to TTY stderr using uv_try_write,28451
+gengjiawen,2020-04-01T21:20:56Z,2019-06-27T13:30:31Z,,inspector: change api to promise-like,28447
+mayinghan,2019-07-10T05:59:51Z,2019-06-27T03:56:19Z,,NewSpace: Rebalance Allocation Failed,28442
+ChALkeR,2020-04-01T21:20:57Z,2019-06-26T20:41:12Z,,buffer: add Buffer.harden() method,28439
+abbshr,2019-07-28T06:20:09Z,2019-06-26T17:08:06Z,,http server respond with inappropriate default headers for `HEAD` method,28438
+Himself65,2020-04-01T21:20:57Z,2019-06-25T17:54:40Z,,src: add errorProperties on process.report,28426
+elliot-nelson,2020-04-01T21:20:57Z,2019-06-25T15:30:27Z,,test: add test for pipeline on http response stream,28424
+mmarchini,2019-06-28T14:02:07Z,2019-06-25T00:37:59Z,,Diagnostics report: inspect the error object ,28415
+mmarchini,2020-03-26T15:25:13Z,2019-06-24T23:20:49Z,,Report not generated if `--abort-on-uncaught-exception` is also given,28414
+Trott,2019-08-17T18:03:42Z,2019-06-24T15:28:17Z,,crypto.getDiffieHellman() much slower after OpenSSL 1.1.1c update,28404
+micromaomao,2020-04-11T11:25:02Z,2019-06-22T03:33:54Z,,doc: clearify that http does chunked encoding itself.,28379
+luucamay,2020-04-01T21:20:58Z,2019-06-21T22:54:41Z,,doc: added an example for crypto class decipher,28375
+sergiovillagran,2020-04-01T21:20:59Z,2019-06-21T22:48:15Z,,doc: add example for cipher.update(),28373
+JesuHrz,2020-04-01T21:20:59Z,2019-06-21T22:20:06Z,,Add documention to Cluster,28366
+mastersanto,2020-04-01T21:20:59Z,2019-06-21T22:18:55Z,,doc: cipher.setAADA code example,28364
+johinsDev,2020-04-01T21:21:00Z,2019-06-21T21:55:13Z,,doc: add examples to fs truncate and fs truncateSync,28352
+kball,2019-07-28T13:18:14Z,2019-06-21T19:46:26Z,,Intermittent timeouts in test-tls-min-max-version.js ,28337
+andrey-furman,2019-06-25T06:33:23Z,2019-06-21T09:41:44Z,,es6 modules --experimental-modules,28334
+out4b,2019-06-21T11:11:31Z,2019-06-21T08:41:35Z,,Worker Thread: how to get per-worker cpu & memory util rate?,28332
+drash-course,2019-06-28T15:28:47Z,2019-06-19T10:57:07Z,,The 'OCSPRequest' callback does not send the OCSP response with TLS 1.3,28288
+ronag,2020-01-09T09:55:55Z,2019-06-17T15:01:52Z,,http2: sessionError vs aborted,28267
+emilbayes,2020-02-20T00:14:49Z,2019-06-16T11:03:59Z,,Make it possible to give externals names/util.inspect.custom,28250
+trashhalo,2019-07-15T01:45:31Z,2019-06-16T02:14:06Z,,connections destroyed under load,28247
+gabrielschulhof,2020-04-01T21:21:00Z,2019-06-14T23:52:23Z,,n-api: support type-tagging objects,28237
+zen0wu,2019-07-13T12:43:58Z,2019-06-14T23:20:18Z,,"IncomingMessage and OutgoingMessage's destroy ignores the second argument callback, swallowing the error",28236
+TimothyGu,2019-09-05T11:08:21Z,2019-06-13T00:55:58Z,,N-API should allow setting the 'length' property of functions,28196
+devsnek,2019-06-13T15:58:33Z,2019-06-12T18:29:35Z,,TextDecoder can't use `latin1` without full-icu,28190
+ronag,2020-01-16T18:57:09Z,2019-06-11T12:03:44Z,,http: response does not emit error on premature close,28172
+changk99,2019-06-28T15:47:32Z,2019-06-11T09:08:13Z,,timer: timeout.refresh() cannot be reactivated the timer when call unref,28168
+CoNETProject,2019-07-30T15:31:57Z,2019-06-11T08:05:47Z,,tls.connect Error: self signed certificate when connect to imap.gmail.com:933,28167
+argv-minus-one,2019-06-14T20:59:31Z,2019-06-11T02:03:48Z,,N-API: Type safety for napi_get_value_external/napi_unwrap,28164
+BridgeAR,2020-01-09T17:13:17Z,2019-06-10T14:18:04Z,,Windows CI failures,28152
+gordonmleigh,2019-06-09T19:18:41Z,2019-06-09T15:53:12Z,,Stream async iteration breaks with derived streams,28141
+zero1five,2020-04-01T21:21:00Z,2019-06-07T20:30:29Z,,test: move the corresponding IPv4 and IPv6 tests,28124
+Casm82,2019-06-07T20:43:21Z,2019-06-07T09:38:05Z,,Date#toLocaleString output changed to 12h in 10.16.0,28117
+bnoordhuis,2019-06-10T11:13:13Z,2019-06-06T11:22:12Z,,intl: configure default locale,28099
+reisraff,2020-01-14T19:54:43Z,2019-06-04T21:14:07Z,,Memory leak version 10.16.0,28063
+benjamingr,2019-06-11T16:09:57Z,2019-06-04T20:43:45Z,,Vendor official NPM modules,28062
+sam-github,2019-11-22T06:25:55Z,2019-06-04T17:33:15Z,,esm modules documentation doesn't describe how to implement a module,28060
+mildsunrise,2020-04-01T21:21:01Z,2019-06-03T22:42:35Z,,"http2,doc: minor fixes",28044
+anurbol,2019-06-02T15:30:07Z,2019-06-02T07:53:47Z,,Incomplete stacktrace when `await new Promise(...)` is present,28013
+ronag,2019-06-03T12:23:11Z,2019-06-01T19:53:22Z,,http compat: headersSent,28008
+Himself65,2020-04-01T21:21:01Z,2019-06-01T19:08:18Z,,process: disallow some uses of Object.defineProperty() on process.env,28006
+ronag,2019-06-02T05:26:50Z,2019-06-01T14:24:26Z,,http compat won't always call callback on end method,28001
+aleks63,2020-01-11T06:53:37Z,2019-06-01T06:14:48Z,,worker_threads memory leak,27998
+smbape,2019-06-01T13:19:23Z,2019-05-31T22:08:31Z,,Any breakpoint in a native js file sets multiple breakpoints in other native js files,27997
+iamogbz,2019-06-01T10:30:03Z,2019-05-31T03:53:13Z,,Cannot delete property from process.env,27990
+tufosa,2019-05-30T10:39:11Z,2019-05-30T10:13:04Z,,Clear sockets perform worse than TLS socket in some cases,27970
+WalasPrime,2019-05-28T17:26:08Z,2019-05-28T12:17:27Z,,Illegal continue statement - wrong stack trace with async/await calls,27935
+kbjr,2020-04-09T04:58:03Z,2019-05-28T01:15:41Z,,Significant map/reduce performance regression in node 12,27930
+awwright,2020-01-16T09:43:43Z,2019-05-26T21:08:09Z,,Expose and write headers on 1xx intermediate status codes,27921
+ronag,2019-11-26T14:03:29Z,2019-05-26T17:02:16Z,,ECONNRESET after response,27916
+JSMonk,2020-04-01T21:21:02Z,2019-05-26T13:01:35Z,2020-04-10T16:08:46Z,test: add test cases for cluster profiling,27895
+pinguinjkeke,2020-04-01T21:21:02Z,2019-05-26T12:38:32Z,,inspector: remove remainingCallbacks because code is synchronous,27893
+ronag,2020-01-03T23:34:42Z,2019-05-26T08:54:57Z,,No content length on DELETE and OPTIONS,27880
+oyyd,2020-04-01T21:21:03Z,2019-05-25T08:28:52Z,,dgram: append actual errors to ERR_SOCKET_CANNOT_SEND,27865
+zero1five,2019-06-02T03:03:37Z,2019-05-25T07:45:49Z,,Feature Request: can continuous call readline.question ,27864
+reasonablytall,2019-12-03T16:23:15Z,2019-05-24T23:14:36Z,,test: fixtures key/certs cause failures when openssl security level > 1,27862
+gengjiawen,2019-12-27T00:38:59Z,2019-05-24T15:46:06Z,,[Feature request] Add node-report to cdp and add Visual Panel like React or Vue,27858
+lddubeau,2019-05-22T20:22:36Z,2019-05-22T19:43:32Z,,12.3.0 introduces a breaking change in the way require.resolve's options.paths is validated,27827
+igorSmirnovPlexi,2019-07-02T15:34:39Z,2019-05-22T17:23:24Z,,Unsupported certificate purpose error with nodejs 10,27825
+srcmake,2019-05-28T02:04:59Z,2019-05-22T14:01:27Z,,[Documentation Suggestion] How To Contribute To Unit Tests,27820
+gengjiawen,2019-06-26T09:32:30Z,2019-05-22T11:39:53Z,,[Internal] Track cpp deprecation with date.,27817
+JQuilty,2019-05-22T15:43:34Z,2019-05-22T05:26:22Z,,Suggestion For Contributing.md,27813
+JQuilty,2019-05-22T20:18:37Z,2019-05-22T03:50:19Z,,Suggestion for revision to building.md,27812
+RebugSEN,2019-06-14T23:53:28Z,2019-05-21T23:50:26Z,,Node.JS installation ended prematurely [Windows 7],27806
+evanlucas,2020-04-01T21:21:03Z,2019-05-21T22:55:15Z,,os: add constrainedmem(),27805
+bfhuang,2019-07-26T01:23:17Z,2019-05-21T09:54:20Z,,FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory,27797
+TanninOne,2019-10-29T09:25:03Z,2019-05-21T09:36:01Z,,symlink is - stateful?,27795
+eparthibanmcagmailcom,2019-05-21T08:27:39Z,2019-05-21T04:06:42Z,,"When update to latest version ERROR : ""The installer has insufficient privileges to modify this file  ""C:\Program Files\nodejs\node_modules\npm\node_modules\abbrev\package.json""",27788
+zero1five,2019-05-24T19:05:28Z,2019-05-21T03:46:30Z,,stream: `end` cannot throw ERR_STREAM_DESTROYED after `destroy`,27787
+davNazaryan,2020-03-31T17:59:34Z,2019-05-17T12:51:53Z,,Event loop execution order changes based on code part that didn't executed,27747
+zero1five,2020-04-01T21:21:03Z,2019-05-16T23:06:10Z,,assert: fix internal logic judgment,27743
+dmaynard51,2020-04-01T21:21:04Z,2019-05-16T19:54:18Z,,"doc: reorganized ""Contributing to Node.js""",27740
+xehpuk,2020-02-25T14:55:37Z,2019-05-15T15:16:43Z,,"FATAL ERROR: node::inspector::Agent::ToggleAsyncHook Cannot toggle Inspector's AsyncHook, please report this.",27714
+bimbiltu,2019-05-15T20:33:17Z,2019-05-13T18:16:13Z,,Calling disconnect causes processes spawned by cluster module to exit too early,27679
+devanshu1111,2019-05-30T08:35:49Z,2019-05-13T08:39:28Z,,Expose a way to specify TLS version by node command line,27666
+bnoordhuis,2019-05-18T12:30:09Z,2019-05-13T06:38:38Z,,"build,cares,openssl,zlib: limit symbol exports",27664
+mscdex,2020-04-01T21:21:04Z,2019-05-12T20:45:29Z,,path: fix win32.relative() for some Unicode paths,27662
+monoblaine,2020-04-01T21:21:04Z,2019-05-10T21:47:33Z,,path: fix unicode path problems in path.relative,27644
+vmarchaud,2019-05-14T18:14:14Z,2019-05-10T15:00:11Z,,inspector: abort when accessing data from a closed session,27641
+ehmicky,2019-05-10T16:54:21Z,2019-05-10T09:41:11Z,,Add `timeout` and `killSignal` options to `child_process` `spawn()` and `fork()`,27639
+Hakerh400,2020-01-18T21:42:39Z,2019-05-10T03:54:51Z,,Inspector segmentation fault,27637
+slushnys,2020-01-23T02:57:43Z,2019-05-09T15:11:52Z,,node 12.1 and 12.2 causes cpu usage increase above 30%,27624
+Trott,2019-08-14T19:26:52Z,2019-05-08T13:55:47Z,,investigate flaky test-cpu-prof,27611
+BridgeAR,2020-04-08T05:09:49Z,2019-05-08T06:17:10Z,,Update terminal environment variables to detect colors,27609
+hashseed,2019-05-11T22:18:33Z,2019-05-06T10:58:18Z,,second pass phantom callback leads to infinite recursion,27577
+hashseed,2020-04-01T21:21:05Z,2019-05-06T06:04:45Z,,Remove --build-v8-with-gn configure option,27576
+ofrobots,2020-01-16T11:18:03Z,2019-05-03T18:48:11Z,,Default http[2s] server timeout is problematic,27556
+paulrutter,2020-04-10T15:21:22Z,2019-05-03T14:22:24Z,,Create heapdump on out of memory,27552
+atondelier,2019-05-07T08:15:25Z,2019-05-03T09:01:56Z,,Domains async_hook based implementation leaks active domain on resources maintained by internal pools,27550
+jngd,2019-05-06T02:10:00Z,2019-05-03T07:14:24Z,,console.time measuring lot of time the first time that is being executed,27549
+coopa,2019-05-06T14:17:39Z,2019-05-02T15:51:20Z,,JSON.stringify on process.nodeModules can result in an OOM when using custom serializer,27536
+JSMonk,2019-05-03T10:29:21Z,2019-05-02T15:33:09Z,,UTF Characters for relative path,27534
+joyeecheung,2019-10-31T11:10:14Z,2019-05-02T14:08:50Z,,Better assertion message for C++ binding argument checks,27532
+monperrus,2020-04-08T05:08:50Z,2019-05-01T05:51:56Z,,doc:  add missing `--trace` in man page,27510
+guilt,2019-08-15T13:47:48Z,2019-04-30T20:34:39Z,,Please support loading node_modules from an archive,27501
+BridgeAR,2020-04-01T21:21:05Z,2019-04-30T15:41:38Z,,assert: stricter object comparison,27495
+rendall,2019-05-11T06:48:34Z,2019-04-30T09:18:31Z,,Node does not completely uninstall itself on Windows,27489
+fenginsc,2020-02-12T17:08:58Z,2019-04-30T06:26:32Z,,modify the runtime stack size.,27488
+dothebart,2020-04-01T21:21:06Z,2019-04-29T12:23:29Z,,"tools,build: use the python interpreter running gyp througout the whole build process",27476
+pimterry,2019-04-28T09:13:26Z,2019-04-26T16:05:18Z,,Make it possible to forcibly RST a net.Socket,27428
+coderaiser,2020-04-01T21:21:06Z,2019-04-25T15:04:11Z,,docs: fs: stat.isDirectory: added clarification,27413
+averri,2019-05-02T03:51:05Z,2019-04-25T11:04:04Z,,Nodejs 10.15.3 on Windows 10 - cannot find npm,27409
+hardfist,2019-04-29T15:39:07Z,2019-04-25T07:31:20Z,,#NAME?,27406
+jasnell,2020-01-11T14:20:19Z,2019-04-25T03:51:43Z,,Discussion: private fields and util.inspect,27404
+BethGriggs,2020-01-04T03:23:31Z,2019-04-24T21:28:55Z,,Syntax Highlighting license ,27397
+yuyaryshev,2019-12-24T07:42:03Z,2019-04-23T09:43:21Z,,A flag for disabling specific warnings,27355
+anentropic,2020-04-10T01:43:02Z,2019-04-22T20:28:11Z,,doc: outline that process.stdin emits multiple readable events,27350
+coreyfarrell,2019-09-09T16:16:12Z,2019-04-22T17:00:16Z,,process.binding('spawn_sync') is required for spawn-wrap (and thus nyc) to work.,27344
+BridgeAR,2019-04-22T02:13:45Z,2019-04-21T23:01:55Z,,REPL: add wildcard to autocompletion,27337
+Himself65,2020-04-01T21:21:07Z,2019-04-20T17:51:47Z,,lib: improve option shell on child_process,27327
+Qard,2019-04-24T21:51:19Z,2019-04-19T00:20:47Z,,Proposal: PR links in documentation history,27302
+edopalmieri,2020-02-18T17:03:40Z,2019-04-16T14:36:31Z,,Node fatal error: ToggleAsyncHook Cannot toggle Inspector's AsyncHook,27261
+kotsss,2020-02-09T21:42:46Z,2019-04-16T12:37:33Z,,Crash in wrap_js_stream.js during doClose,27258
+psmarshall,2019-04-17T09:40:21Z,2019-04-16T12:11:50Z,,Blockers for Clang support on all supported platforms,27257
+kalinkrustev,2019-04-17T09:38:13Z,2019-04-16T12:02:10Z,,vm.compileFunction is crashing the node process with unknown error,27256
+jorangreef,2019-04-17T13:38:22Z,2019-04-16T10:23:14Z,,security: zlib inflate methods might be vulnerable to zip bombs,27253
+refack,2020-04-01T21:21:07Z,2019-04-14T22:10:20Z,, build: move release targets to tools/build/Makefile.release.mk,27232
+MasterJames,2020-01-14T12:29:20Z,2019-04-13T10:36:20Z,,Node 11.9+ Exception on openssl digital envelope routines cipher parameter evp_lib.c,27213
+suresh-srinivas,2019-04-18T05:17:04Z,2019-04-12T00:29:28Z,,Node Startup Improvement,27196
+ddavister,2019-07-10T15:39:33Z,2019-04-11T14:48:50Z,,Node Installer Installs npm 4.4.1 Instead of 6.4.1,27191
+refack,2020-04-01T21:21:07Z,2019-04-09T13:11:16Z,,build: V8 gyp files fixes,27148
+XadillaX,2020-04-01T21:21:08Z,2019-04-09T09:24:23Z,,process: add libuvHandlesCount(),27145
+boneskull,2019-09-19T19:05:11Z,2019-04-08T20:23:29Z,,async iterators/generators in stream.pipeline(),27140
+gev,2019-04-09T14:37:45Z,2019-04-08T19:10:10Z,,os.networkInterfaces() returns wrong mac addresses again!,27139
+nimit95,2019-09-15T21:06:13Z,2019-04-08T12:47:34Z,,Give write callback incase of piping,27129
+BridgeAR,2019-11-23T12:02:01Z,2019-04-07T16:02:30Z,,Increase buffer pool size and streams high water marks,27121
+ehmicky,2019-04-20T16:49:40Z,2019-04-07T11:13:25Z,,Use the `/q` flag with `cmd.exe` in `child_process.spawn()`,27120
+refack,2020-04-01T21:21:08Z,2019-04-05T21:42:02Z,,build: fixes and optimizations in gyp files,27108
+jvictor85,2019-10-24T18:37:34Z,2019-04-05T20:32:09Z,,Segfault on Node 10.x doesn't occur in 6.x,27107
+marcosc90,2019-08-29T08:05:00Z,2019-04-05T20:22:31Z,,readable.push always returning false after reaching highWaterMark for the first time,27106
+refack,2020-04-01T21:21:09Z,2019-04-04T23:20:38Z,,src: simplify Javascript code embedding,27095
+mikeal,2020-01-23T20:50:38Z,2019-04-03T23:43:43Z,,Feature: Immutable Buffer `buffer.readonly()`,27080
+cinderblock,2020-01-22T21:19:25Z,2019-04-03T21:48:12Z,,Documented way to add certificates to existing SecureContext,27079
+BridgeAR,2020-04-01T21:21:09Z,2019-04-02T03:04:31Z,,buffer: stricter buffer from,27051
+bnoordhuis,2020-01-02T13:42:43Z,2019-04-02T02:11:07Z,,"http: HEAD response, no error if next msg starts with 'H'",27049
+joyeecheung,2019-03-31T18:57:46Z,2019-03-31T04:34:42Z,,errors in punycode.js: assign codes or leave them alone?,27023
+shree-y,2020-04-01T21:21:09Z,2019-03-30T02:28:24Z,,doc: document the return value of process.send() and worker.send(),27003
+tniessen,2020-01-08T14:13:34Z,2019-03-29T19:28:51Z,,Supported asymmetric key types,26996
+migounette,2020-04-01T21:21:10Z,2019-03-28T18:43:12Z,,http2: window size connection control,26962
+bnoordhuis,2020-03-21T09:24:06Z,2019-03-25T12:10:15Z,,dns: provide additional info for ENOTFOUND errors,26903
+tiagosiebler,2020-03-30T18:16:41Z,2019-03-24T12:24:00Z,,`node --inspect` and `node --inspect-brk` not being connected to by chrome,26887
+mat8913,2019-03-26T03:35:22Z,2019-03-23T15:52:41Z,,/etc/localtime symlink handling,26880
+joyeecheung,2019-06-29T08:57:36Z,2019-03-23T15:07:01Z,,"RFC: add a flag similar to --prof, but based on v8 CPU profiler",26878
+surma,2019-04-01T14:24:52Z,2019-03-22T13:24:24Z,,worker.onmessage is not called,26856
+tniessen,2019-08-13T16:14:43Z,2019-03-22T11:27:02Z,,Exposing KeyObject fields vs. native JWK support,26854
+Flarna,2019-04-14T19:31:17Z,2019-03-22T10:51:34Z,,async_hooks: await triggers promiseResolve twice for Node 10 and 11,26853
+bnoordhuis,2019-03-21T10:11:03Z,2019-03-21T10:11:03Z,,http2: cannot negotiate ALPN besides http/1.1,26835
+Flarna,2019-04-29T13:09:38Z,2019-03-20T13:43:00Z,,Backport of V8 CpuProfiler fixes/improvements,26816
+isaacs,2019-12-14T16:01:03Z,2019-03-20T01:48:33Z,,executionAsyncId doesn't return expected value in context of process.on('unhandledRejection'),26794
+Eric24,2019-03-19T16:41:16Z,2019-03-19T14:37:34Z,,VM: options.columnOffset has no effect on column number in stack trace output,26780
+joyeecheung,2020-01-07T14:22:35Z,2019-03-19T13:11:42Z,,Track Environment fields in heap snapshot?,26776
+hashseed,2019-11-13T08:38:41Z,2019-03-18T19:33:21Z,,Pointer compression and Node modules,26756
+jorangreef,2019-03-19T11:20:43Z,2019-03-18T17:00:40Z,,"crypto hash, hmac and cipher ops could be 2x-3x faster for ""one-shot"" small buffers",26748
+refack,2020-04-01T21:21:10Z,2019-03-18T02:14:12Z,,build: make `partly_static` opt-out,26726
+luisfonsivevo,2019-11-03T23:18:00Z,2019-03-17T21:02:01Z,,src: add SecureContext.getCertificateObject method,26724
+gengjiawen,2019-03-17T15:21:01Z,2019-03-17T14:16:12Z,,Should we add a glossary like chrome ?,26718
+guybedford,2020-04-01T21:21:10Z,2019-03-17T14:12:10Z,,process: deprecate toStringTag assignment,26717
+izelnakri,2019-03-15T20:07:08Z,2019-03-15T19:45:15Z,,[worker_threads] make JS new Error() copyable across threads,26692
+anthony-tuininga,2019-10-08T12:22:50Z,2019-03-14T19:30:46Z,,Memory leak introduced in v10.15.3,26667
+gengjiawen,2020-04-01T21:21:11Z,2019-03-12T15:31:54Z,,benchmark: replace deprecated cipher in cipher-stream.js,26612
+refack,2019-06-07T20:01:04Z,2019-03-12T14:05:14Z,,flaky: parallel/test-async-hooks-http-parser-destroy.js,26610
+cevek,2019-07-15T18:01:54Z,2019-03-12T12:31:47Z,,Debug worker_threads,26609
+fishcharlie,2019-05-10T19:35:37Z,2019-03-11T02:29:04Z,,setTimeout Calling Callback Too Early,26578
+refack,2020-04-01T21:21:12Z,2019-03-10T22:28:51Z,,[WIP] lib: tweak buffer.indexOf,26576
+jasnell,2019-03-10T18:32:55Z,2019-03-10T18:32:43Z,,"dtrace,etw support levels",26571
+BeniCheni,2020-02-09T10:21:10Z,2019-03-10T02:56:14Z,,"benchmark: add ""byGroup"" config option",26559
+caiolrm,2020-04-01T21:21:12Z,2019-03-09T19:36:30Z,,http: create an option for setting a maximum size for uri parsing,26553
+yvele,2020-03-19T08:35:33Z,2019-03-08T10:31:30Z,,Support for base64url format,26512
+arthur-clifford,2019-03-09T14:01:31Z,2019-03-08T08:24:51Z,,worker threads importScirpts and self support / 1:1 browser Worker functionality,26508
+bnoordhuis,2019-03-26T18:04:19Z,2019-03-08T08:06:56Z,,tls: additional root cert-specific verification,26507
+ekkis,2019-03-13T18:26:53Z,2019-03-08T00:11:48Z,,#NAME?,26503
+hcldan,2019-12-14T11:30:26Z,2019-03-06T23:07:49Z,,Secure input for requesting passwords from user input.,26482
+hkjackey,2019-03-11T09:39:23Z,2019-03-05T08:00:07Z,,buffer.indexOf is incorrect in utf16le encoding for odd byteOffset,26448
+BridgeAR,2019-11-03T21:42:09Z,2019-03-04T13:13:13Z,,Benchmark parameter group,26425
+Trott,2019-03-03T10:44:31Z,2019-03-02T20:32:22Z,,assertion error in _http_client.js,26404
+Trott,2020-04-01T01:32:34Z,2019-03-02T16:34:55Z,,Investigate flaky test-worker-prof,26401
+mscdex,2019-03-01T21:44:39Z,2019-03-01T18:05:43Z,,Flaky parallel/test-worker-exit-code,26379
+Dhirendra24,2019-03-04T12:32:44Z,2019-02-28T14:10:49Z,,AssertionError [ERR_ASSERTION]: false == true,26351
+simonbuchan,2019-02-28T16:20:02Z,2019-02-27T22:16:54Z,,"`node::MakeCallback()`, `napi_make_callback()` requires recv to be an object / not empty",26342
+misterdjules,2020-04-01T21:21:13Z,2019-02-26T20:16:34Z,,domain: allow concurrent user-land impl,26326
+yosuke-furukawa,2019-07-04T13:32:03Z,2019-02-26T06:13:08Z,,stream.pipeline destroys writable stream when error is occurred,26311
+RMHonor,2019-03-03T18:46:21Z,2019-02-25T12:39:24Z,,HTTP GET Request with a long URI produces a 400 Bad Request error (should be 414),26296
+mcollina,2019-05-21T20:44:57Z,2019-02-24T17:57:13Z,,"Add a guide on ""How do I become a Node.js committer"".",26287
+BridgeAR,2019-03-25T19:27:52Z,2019-02-20T13:30:07Z,,Consistent environment variables,26213
+mariusgrigaitis,2019-03-17T09:52:30Z,2019-02-17T17:03:17Z,,http socket might get reset instead of normal close while handling timeout,26166
+mariusgrigaitis,2019-02-18T15:13:32Z,2019-02-17T16:32:02Z,,http server.headersTimeout keeps the socket open after timeout,26165
+Krinkle,2019-02-16T21:59:53Z,2019-02-15T15:35:05Z,,Avoid small initial text for API docs on pages with wide tables,26134
+twiss,2019-02-21T16:50:20Z,2019-02-14T23:37:21Z,,TextDecoder with fatal=false throws when streaming invalid UTF-8,26115
+hashseed,2019-02-17T08:33:22Z,2019-02-14T14:22:30Z,,ThreadSanitizer: data race at PlatformWorkerThread::trace_event_unique_atomic35,26100
+lance,2020-04-01T21:21:13Z,2019-02-13T14:43:05Z,,repl: commands allowed only when not multiline,26076
+gengjiawen,2020-04-01T21:21:14Z,2019-02-12T12:52:01Z,,[WIP]tools: simply eslint tasks,26054
+tzvipm,2019-03-22T16:24:18Z,2019-02-11T03:36:56Z,,PluralRules broken in node 10.15.1,26040
+danielgindi,2019-04-15T14:12:25Z,2019-02-10T08:12:00Z,,Sourceless vm.Script compilation/load,26026
+ZebraFlesh,2019-02-26T18:50:21Z,2019-02-08T22:07:42Z,,Fully deprecate require('constants'),26012
+refack,2020-04-01T10:11:31Z,2019-02-07T16:56:49Z,,flaky: test-child-process-pipe-dataflow,25988
+morkai,2019-02-11T10:05:02Z,2019-02-06T22:11:55Z,,`readable` event not emitted after `net.Socket` reconnects,25969
+jdalton,2019-02-11T01:26:13Z,2019-02-06T19:51:24Z,,Node 11.4.0+ fails to resolve index.js when combined with -r and --inspect-brk,25967
+adamreisnz,2020-01-06T09:13:50Z,2019-02-06T08:48:57Z,,Significantly larger event loop latency & event loop usage in Node 10 vs Node 8,25957
+boneskull,2019-06-04T12:20:15Z,2019-02-05T22:38:01Z,,http2 API documentation issues,25952
+daveisfera,2019-09-20T09:01:07Z,2019-02-05T14:35:47Z,,Memory growth with Node 10,25946
+BridgeAR,2020-01-19T01:01:39Z,2019-02-05T02:20:04Z,,Coverage reports wrong hit counter,25937
+trevnorris,2019-02-11T19:03:56Z,2019-02-04T22:35:21Z,,Workers affected by V8 aborting on virtual allocation failure,25933
+vsemozhetbyt,2019-02-05T19:41:45Z,2019-02-04T19:33:41Z,,Frequent console.log() calls prevent error output on stack overflow,25930
+Trott,2019-02-04T16:05:34Z,2019-02-04T16:05:34Z,,investigate flaky test-https-server-keep-alive-timeout,25924
+gengjiawen,2019-02-12T14:46:54Z,2019-02-03T15:08:36Z,,Improve current workflow,25908
+Trott,2019-04-15T18:23:29Z,2019-02-03T09:45:14Z,,investigate flaky sequential/test-performance,25903
+NiceGuyNimni,2019-02-02T17:01:18Z,2019-02-02T17:01:18Z,,When adding a breakpoint on a promise line when the promise inside a class instance it hits after promise resolved,25897
+Trott,2019-02-03T10:41:35Z,2019-02-02T13:59:14Z,,investigate test/tick-processor/test-tick-processor-builtin failures,25891
+KrummbelElixo,2019-12-03T19:54:40Z,2019-02-02T01:53:01Z,,Problems with Visual Studio 2017,25882
+linsl120821,2020-01-06T08:22:29Z,2019-01-31T10:35:42Z,,update nodejs from 6.9.5 to 10.15.1 error on windows,25845
+isaacs,2019-02-22T14:50:46Z,2019-01-30T05:24:10Z,,Timer objects no longer show up in process._getActiveHandles(),25806
+refack,2020-04-01T21:21:15Z,2019-01-29T19:06:03Z,,"build,tools: refactor build config into config.json",25798
+addaleax,2020-01-06T08:08:56Z,2019-01-29T18:39:26Z,2020-03-13T13:08:46Z,Flaky test: test-policy-integrity,25797
+ORESoftware,2020-01-06T08:16:13Z,2019-01-29T09:55:53Z,,get event loop tick id somehow,25787
+gireeshpunathil,2019-02-02T13:00:14Z,2019-01-28T12:42:13Z,,SIGSEGV handler causes infinite loop if signal raised from within,25762
+zbjornson,2019-03-11T19:04:30Z,2019-01-27T19:08:32Z,,fs.readFile is slower in v10,25741
+tniessen,2019-02-22T15:20:22Z,2019-01-26T12:44:38Z,,Unhandled application error causes segmentation fault in OpenSSL internals,25725
+Zamiake,2019-01-29T06:51:08Z,2019-01-26T06:38:02Z,,Unable to use Path related commands? ; For Oddball Laptop Users Win10,25721
+Fishrock123,2020-04-01T21:21:15Z,2019-01-25T22:27:28Z,,process: add exitWithException(),25715
+Fishrock123,2019-01-25T10:31:07Z,2019-01-25T01:36:39Z,,Make windows stdio pipes async (?),25691
+fpelliccioni,2019-01-28T23:18:33Z,2019-01-23T03:17:46Z,,Possible Memory Leak N-API,25657
+sbalko,2019-05-15T00:15:21Z,2019-01-22T05:43:01Z,,worker_threads: worker.postMessage does not get executed without exiting synchronous call stack,25630
+mmmeff,2020-01-16T20:19:06Z,2019-01-20T18:44:00Z,,docs: Dirent definition doesn't tell me anything useful about Dirent,25595
+szmarczak,2019-01-18T17:46:36Z,2019-01-18T10:14:58Z,,Pass a Promise to the `lookup` option in `socket.connect(...)`,25561
+bnb,2019-01-19T22:55:21Z,2019-01-17T18:28:10Z,,Create node/doc/guides/writing-docs.md,25548
+cyrilchapon,2019-01-15T17:40:31Z,2019-01-15T17:00:52Z,,Inconsistent error message when spreading null inside array,25520
+jebeld17,2019-10-01T02:51:04Z,2019-01-15T16:55:08Z,,UWP/Microsoft Store package,25519
+cedricbu,2019-01-16T21:34:32Z,2019-01-15T13:23:22Z,,"import http-parser ""Fix Content-Length with obsolete line folding"" ",25514
+liudonghua123,2019-11-30T18:50:14Z,2019-01-15T03:21:53Z,,Windows installer hidden after installation finished,25509
+misterdjules,2019-01-15T01:12:46Z,2019-01-15T01:12:46Z,,error handler of same domain can be called several times when it throws,25505
+bcoe,2019-11-03T21:42:09Z,2019-01-14T03:01:16Z,,child_process: child_process.spawn ENOMEM on Windows ,25484
+joyeecheung,2020-02-20T09:31:00Z,2019-01-13T19:00:26Z,,repl: printing big strings results in OOM,25478
+misterdjules,2019-01-12T02:29:43Z,2019-01-12T02:29:43Z,,responses corresponding to requests queued by http agent are attached to incorrect domain,25460
+tshinnic,2019-01-17T23:13:46Z,2019-01-11T23:28:09Z,,BUILDING.md: how-to-install has become obscured,25458
+Trott,2019-01-11T14:28:07Z,2019-01-11T14:27:52Z,,Investigate flaky sequential/test-inspector-port-cluster on Windows CI,25445
+guybedford,2019-04-13T14:25:04Z,2019-01-09T22:28:59Z,,vm: Script importModuleDynamically memory leak,25424
+zbjornson,2020-01-30T16:05:00Z,2019-01-07T23:10:29Z,,ENOMEM with exec/spawn - child process tries to reserve as much mem as parent,25382
+talbenari1,2019-01-06T07:34:26Z,2019-01-06T00:41:45Z,,Syntax error message sometimes highlights the wrong token for reserved words,25359
+prabodh1194,2019-12-19T10:37:34Z,2019-01-05T16:46:54Z,,Test failing InspectorSocketServerTest.ServerCannotStart,25353
+joyeecheung,2019-06-14T21:49:22Z,2019-01-04T17:33:17Z,,`process.features`: deprecate it or add more properties?,25343
+DaAitch,2019-01-04T20:05:00Z,2019-01-04T17:26:13Z,,NAPI: some napi_*_threadsafe_function naming/documentation issues,25341
+Feirell,2020-04-01T21:21:16Z,2019-01-01T16:48:07Z,,doc/api: extended the object mode section in the stream.md,25306
+sindresorhus,2019-01-08T19:27:19Z,2018-12-26T16:16:22Z,,Add `input` option to async child_process methods,25231
+TimothyGu,2019-07-20T11:20:21Z,2018-12-26T04:26:04Z,,Negative zero broken on ≥ v10.4.0,25221
+SamuraiJack,2019-02-02T09:06:31Z,2018-12-25T11:58:09Z,,#NAME?,25215
+srl295,2019-11-22T22:08:36Z,2018-12-19T18:14:43Z,,Intl: replace icutrim.py with ICU data slicer,25136
+sam-github,2019-11-28T21:57:09Z,2018-12-19T16:16:07Z,,"Makefile dependency tree is incomplete, makefiles do not build only as necessary",25135
+jbunton-atlassian,2019-02-01T10:04:17Z,2018-12-19T12:21:23Z,,regression: child_process stdin pipe close event not emitted,25131
+Fishrock123,2019-06-28T06:31:54Z,2018-12-17T23:50:03Z,,WhatWG URL provides no suitable replacement for `url.format()`,25099
+ORESoftware,2019-01-06T20:42:03Z,2018-12-16T03:16:11Z,,Startup time optimization - specifying location of node_modules,25072
+XiaoningLiu,2019-03-28T23:41:00Z,2018-12-15T08:53:13Z,,Unexpected RangeError [ERR_INVALID_OPT_VALUE] while reading from a HTTP download stream,25057
+JayAndCatchFire,2018-12-12T22:07:04Z,2018-12-12T21:39:47Z,,Performance issue with Promise rejection chaining,25000
+gireeshpunathil,2019-01-22T12:55:38Z,2018-12-12T14:09:56Z,,regression: data truncation with stream.writev in IPC channel,24992
+RobertDiebels,2018-12-17T23:53:45Z,2018-12-12T10:57:30Z,,Request for warning documentation,24987
+ronag,2018-12-12T07:45:43Z,2018-12-12T07:45:43Z,,http2: streams can emit 'close' before 'end' and/or 'finish',24983
+dazinator,2019-03-04T09:41:56Z,2018-12-11T22:11:12Z,,On Windows lstatSync errors after unlinking a symlinked file,24970
+joyeecheung,2018-12-11T16:35:01Z,2018-12-11T16:34:36Z,,Making node_process and part of bootstrapper.cc an internalBinding,24961
+dragosnicolae,2020-01-02T14:02:41Z,2018-12-11T10:01:56Z,,http server returns 400 status code for valid request on keepalive connection after an error was caught by a domain,24953
+rubo-21,2018-12-11T22:41:43Z,2018-12-10T18:07:46Z,,Experimental Features Strategy,24941
+sam-github,2018-12-05T17:30:24Z,2018-12-05T16:27:30Z,,"are the YAML ""added"" annotations ambiguous? and are they rewritten on backport?",24850
+joyeecheung,2018-12-04T09:39:42Z,2018-12-04T08:51:13Z,,s/whatwg/web/ in file names?,24823
+annabokhan,2019-07-19T16:16:57Z,2018-12-03T23:46:19Z,,Expose a way to restrict openssl signature algorithms,24818
+doertedev,2020-04-01T21:21:16Z,2018-11-30T23:27:58Z,,module: createRequireFromPath missed docs,24763
+hbowden,2019-03-28T11:22:03Z,2018-11-30T17:10:29Z,,HTTP2 throwing SSL alert number 42 on Windows 7,24754
+ronag,2018-11-30T09:55:37Z,2018-11-30T09:55:37Z,,http/2 compat HEAD always finished,24743
+ronag,2019-08-08T13:30:25Z,2018-11-30T09:53:12Z,,http/2 compat will emit finish before end() for HEAD requests,24742
+safareli,2018-11-29T21:12:37Z,2018-11-29T13:05:08Z,,"behaviour of Buffer.from(string[, encoding]) is not specified for invalid input",24722
+roblourens,2019-05-19T01:11:12Z,2018-11-28T01:22:18Z,,Support pausing the debugger on script load,24687
+antstanley,2020-04-01T21:21:17Z,2018-11-26T00:53:56Z,,doc: Adding documentation on dynamic imports via the import() function,24649
+thisconnect,2018-11-25T19:49:53Z,2018-11-25T11:22:28Z,,Regression v10.x node_file.cc:1713: Assertion `(off) <= (buffer_length)' failed.,24640
+addaleax,2020-01-04T02:52:49Z,2018-11-23T04:32:35Z,,Does `autoDestroy` make sense for http2 streams?,24576
+MylesBorins,2020-04-01T21:21:18Z,2018-11-22T09:28:30Z,,child_process: implement experimental promises api,24564
+coderaiser,2018-11-23T08:47:06Z,2018-11-20T13:48:30Z,,stream.pipeline swallowing errors when read stream is empty,24517
+cclauss,2019-11-03T21:42:09Z,2018-11-20T07:14:41Z,,Dependency v8 is not Python 3 compatible,24512
+refack,2018-11-26T17:22:56Z,2018-11-19T21:05:29Z,,flaky: parallel/test-timers-immediate-queue,24497
+belldoor,2020-01-04T18:48:32Z,2018-11-19T03:07:42Z,,Feature request: Support create public key from components method?,24471
+leeight,2020-04-01T21:21:18Z,2018-11-18T12:28:54Z,2020-04-13T13:08:46Z,test: update test case in test-net-internal.js,24461
+DragonOsman,2018-12-28T22:44:59Z,2018-11-17T17:01:01Z,,Problem Building Node (had errors about multiply-defined symbols and such),24448
+joyeecheung,2020-04-01T21:21:18Z,2018-11-16T20:41:11Z,,test: add a test to make sure the modules can be required independently,24402
+refack,2018-11-23T04:56:21Z,2018-11-16T16:44:28Z,,flaky: parallel/test-https-foafssl,24397
+kapouer,2020-04-01T21:21:19Z,2018-11-15T09:48:06Z,,test: use openssl.cnf if using shared openssl,24377
+kapouer,2018-11-15T13:52:12Z,2018-11-15T00:32:04Z,,Run tests with OPENSSL_CONF set to embedded openssl.cnf,24373
+ehmicky,2019-06-20T03:48:47Z,2018-11-12T17:00:54Z,,`multipleResolves` event should not be triggered when using `Promise.all()` or `Promise.race()`,24321
+mritunjayz,2020-04-03T00:48:18Z,2018-11-11T20:35:07Z,,doc: buffer.from will return internal pool buffer,24312
+joyeecheung,2020-04-01T21:21:19Z,2018-11-11T17:12:25Z,,benchmark: try building the addons in napi benchmarks,24309
+soldair,2020-04-01T21:21:20Z,2018-11-08T19:34:45Z,,cli: preserve or add trailing slash to file arg,24256
+tchetwin,2020-04-01T21:21:20Z,2018-11-06T23:59:57Z,,test: http[s] deprecated-URL coverage,24212
+soldair,2018-11-07T17:23:03Z,2018-11-06T23:37:22Z,,`node .` runs a different file on node 10 than 8,24210
+joyeecheung,2018-11-06T06:58:49Z,2018-11-06T05:08:43Z,,"discussion: put subsystem, team and label metadata in file(s) in this repo",24117
+bitinn,2018-11-26T04:09:52Z,2018-11-05T08:13:56Z,,"Doc: Agent ctor options are not fully documented, such as `lookup`",24098
+ryzokuken,2020-04-01T21:21:20Z,2018-11-03T20:28:02Z,,vm: add createCacheForFunction,24069
+dexterleng,2020-04-01T21:21:21Z,2018-11-03T09:36:17Z,,fs: do not emit open and read if stream destroyed,24055
+bworline,2019-03-13T15:40:35Z,2018-11-03T00:15:39Z,,Intl.DateTimeFormat doesn't respect the passed culture,24051
+empyrical,2018-11-14T00:52:50Z,2018-11-01T22:59:22Z,,Discussion: How should the Node executable + Node shared library be distributed?,24028
+BridgeAR,2019-11-04T12:43:01Z,2018-11-01T14:47:37Z,,Deprecating _third_party_main,24017
+trivikr,2018-11-16T15:59:38Z,2018-11-01T02:55:00Z,,gitignore files and folders created while running coverage for Node.js core,24009
+refack,2018-11-16T03:07:37Z,2018-10-31T15:17:20Z,,"docs: When using the ""Edit on GitHub"" button references to the guides are not obvious",24003
+refack,2018-10-30T22:59:05Z,2018-10-30T22:59:05Z,,flaky: parallel test-fs-readfile,23983
+asyncmax,2019-08-21T15:05:40Z,2018-10-30T19:08:51Z,,`server.keepAliveTimeout` is not applied to sockets that are never used.,23981
+dsinecos,2018-10-29T17:24:05Z,2018-10-29T11:14:02Z,,UDP/Datagram Sockets documentation,23952
+ryzokuken,2018-11-23T16:07:30Z,2018-10-27T09:45:57Z,,vm.compileFunction should return an object,23923
+refack,2019-10-21T23:01:37Z,2018-10-26T21:33:07Z,,Tracking: openSSL with asm on arm64,23913
+leccyril,2019-12-23T08:57:16Z,2018-10-26T07:01:23Z,,Free memory displayed instead of Available memory (not reality),23892
+Sayanc93,2020-04-01T21:21:22Z,2018-10-26T01:38:23Z,,fs: refactor to not rely on write only permission for lchmod,23887
+SMotaal,2020-03-17T14:52:52Z,2018-10-25T10:34:59Z,,Hashbang not resolving `--loader` relative to entry,23868
+syntacticsolutions,2018-10-29T10:15:59Z,2018-10-24T18:50:24Z,,Create a flag to know when stream has reached it's last chunk from within _transform.,23859
+ryzokuken,2020-04-01T21:21:22Z,2018-10-23T18:45:09Z,,lib: modify NativeModule to use compileFunction,23837
+doom-fr,2019-01-23T22:18:04Z,2018-10-23T09:24:58Z,,add duration argument to timeout.refresh(),23828
+ORESoftware,2018-10-27T23:45:14Z,2018-10-22T19:52:27Z,,util inspect formatter implementer,23823
+demurgos,2018-11-27T12:03:11Z,2018-10-20T11:06:57Z,,Non-unique V8 scriptUrl when using dynamic import in CJS,23783
+kjin,2018-11-28T14:58:46Z,2018-10-20T00:57:09Z,,async_hooks: promiseResolve hook not called for async functions with spread args,23776
+slonka,2020-04-01T21:21:22Z,2018-10-19T16:04:52Z,,src: add security warning when inspector is running on public network,23756
+fengmk2,2020-04-01T21:21:23Z,2018-10-19T08:38:43Z,,http: destroy timeout socket by Agent,23752
+bnb,2018-11-24T20:46:50Z,2018-10-19T02:42:42Z,,Include list of all subsystems/topics in README.md,23749
+isaacs,2018-10-26T01:46:23Z,2018-10-18T18:35:47Z,,"fs.lchmod opens file with O_WRONLY unnecessarily, fails on directories and non-writable files",23736
+rossj,2019-01-01T15:15:32Z,2018-10-18T17:55:34Z,,"fs: cannot interact with invalid UTF-16 filenames on Windows, even with Buffers",23735
+joyeecheung,2020-01-17T07:19:52Z,2018-10-17T23:50:20Z,,doc: list the stability status of each API in one place?,23723
+jasnell,2019-12-17T12:51:31Z,2018-10-16T16:19:03Z,,Tracking Issue: Legacy URL deprecation,23694
+s97712,2018-11-29T05:34:47Z,2018-10-16T07:02:54Z,,remote debugger unable to convert path correctly in different operating system,23688
+wnordmann,2019-01-20T22:24:19Z,2018-10-12T18:51:20Z,,Run code coverage for a single file,23612
+ChALkeR,2018-10-18T06:41:52Z,2018-10-12T07:31:56Z,,Warn on potentially insecure inspector options (--inspect=0.0.0.0),23444
+sido420,2019-09-27T13:19:17Z,2018-10-12T03:40:51Z,,Segmentation fault building 10.12.0,23440
+pprindeville,2020-04-01T21:21:23Z,2018-10-12T02:34:50Z,,deps: add support for interface broadcast addresses,23438
+pprindeville,2019-09-14T08:43:50Z,2018-10-12T02:07:13Z,,os.networkInterfaces() does not expose interface's broadcast address,23437
+alexpreynolds,2018-10-18T04:03:41Z,2018-10-11T19:53:05Z,,child_process.spawn() is unreliable on Promise.all() completion,23428
+sruetzler,2019-03-11T10:17:53Z,2018-10-11T07:53:35Z,,yocto build failed,23420
+misterdjules,2018-11-09T19:15:19Z,2018-10-09T04:42:58Z,,Allow registering multiple uncaught exception capture callbacks,23348
+ronag,2018-11-26T16:33:37Z,2018-10-08T20:19:57Z,,fs: read/write streams don't emit `close` after `error`,23338
+Ayplow,2018-11-21T08:13:24Z,2018-10-08T15:12:30Z,,New Writable Event - Ended by pipe,23333
+alexvelickiy,2020-02-05T13:10:27Z,2018-10-05T19:54:59Z,,https.request timeout options doesn't work,23282
+AljoschaMeyer,2019-11-03T21:42:09Z,2018-10-05T14:01:46Z,,Buffer.toString('utf8') appears to use wtf-8,23280
+orange4glace,2020-04-01T21:21:23Z,2018-10-05T13:51:56Z,,N-API SharedArrayBuffer api,23279
+Trott,2020-02-03T14:40:32Z,2018-10-05T13:38:51Z,,Investigate flaky  parallel/test-worker-memory,23277
+orange4glace,2018-10-10T20:34:32Z,2018-10-05T13:14:06Z,,N-API: Need SharedArrayBuffer api,23276
+empyrical,2019-05-29T12:43:26Z,2018-10-04T15:32:39Z,,N-API: An api for embedding Node in applications,23265
+hashseed,2019-03-28T23:51:51Z,2018-10-04T11:13:19Z,,Address HashWick,23259
+kunalkukreja,2019-03-05T04:46:18Z,2018-10-03T07:06:16Z,,Too many ECONNRESET errors after upgrading to 8.12.0 from (8.11.4),23237
+refack,2018-11-29T21:35:50Z,2018-10-02T16:53:54Z,,flaky: test-http-end-throw-socket-handling,23221
+joyeecheung,2019-01-10T12:11:49Z,2018-10-01T11:28:27Z,,[Tracking Issue] Web Platform Tests revamp/update automation,23192
+TanninOne,2018-10-01T10:40:07Z,2018-10-01T09:47:53Z,,Truncated error messages produced by WinapiErrnoException,23191
+decadent,2020-03-08T15:08:41Z,2018-09-29T23:33:23Z,,"Almost guaranteed ECONNRESET on piped sockets if connecting to Node's HTTPS server which answers with ""connection: 'close'"" after setImmediate or setTimeout, on OSX",23169
+ArnauldChevallier,2018-11-24T20:58:06Z,2018-09-28T08:04:11Z,,Possible parsing error with destructuring assignment,23142
+ronag,2019-11-15T21:34:36Z,2018-09-27T19:25:03Z,,`'open'` can be emitted after `'close'`,23133
+SanderDeWaal1992,2018-11-22T03:09:00Z,2018-09-27T16:22:55Z,,connection reset when using https server/client combi without keepalive,23128
+lovinglyy,2018-11-18T17:34:04Z,2018-09-26T04:57:04Z,,test-util-internal is flaky cause of non ASCII characters,23097
+no2chem,2018-12-11T22:02:53Z,2018-09-24T23:52:23Z,,Feature request: Crypto APIs should optionally return bigints,23071
+rektide,2020-02-05T18:19:19Z,2018-09-24T18:44:11Z,,QUIC support,23064
+Flarna,2019-12-19T23:07:26Z,2018-09-20T20:51:46Z,,[async_hooks] Wrong after callback in case of uncaughtException,22982
+davisjam,2018-09-19T19:45:02Z,2018-09-19T19:41:38Z,,Threadpool monitoring / metrics,22957
+BobFrankston,2018-09-20T14:14:29Z,2018-09-18T23:08:58Z,,Installation problem with search path,22939
+mikicho,2018-09-22T16:33:55Z,2018-09-18T09:59:02Z,,Add class inheritance/implements info to NodeJS JSON docs,22925
+addaleax,2019-11-03T21:42:09Z,2018-09-16T07:56:34Z,,Tracing agent should maybe support shutdown-on-signal,22883
+tolmasky,2020-04-01T21:21:24Z,2018-09-13T02:54:16Z,,Add RunKit embeds to Node documentation [WIP],22831
+jakearchibald,2018-11-04T21:18:16Z,2018-09-11T11:51:11Z,,Docs missing for http2Stream.id and the 'ready' event,22804
+ghost,2018-11-29T15:32:51Z,2018-09-10T06:37:24Z,,License agreement is missing,22785
+rhbecker,2018-11-11T23:03:54Z,2018-09-09T21:50:30Z,,querystring.stringify() could accept a Map without breaking existing support for objects,22782
+hulkish,2020-01-03T12:20:49Z,2018-09-09T20:51:47Z,,"Question: What are the differences/limitations of ./configure --partially-static, --fully-static and default?",22781
+targos,2018-09-27T12:20:42Z,2018-09-08T14:58:53Z,,assert.deepStrictEqual diff confusion,22763
+BridgeAR,2018-09-07T15:13:35Z,2018-09-06T01:04:18Z,,Automate tooling updates,22722
+targos,2018-09-27T11:17:01Z,2018-09-05T15:34:26Z,,[v10.x needs a backport] - trace_events: add trace category enabled tracking,22708
+benjamingr,2020-03-20T22:15:11Z,2018-09-05T12:08:44Z,,Web Locks API,22702
+pietermees,2018-09-16T16:10:05Z,2018-09-04T17:42:12Z,,Include iowait and steal in os.cpus(),22691
+addaleax,2018-11-21T07:16:04Z,2018-08-31T17:41:12Z,,Investigate flaky test parallel/test-zlib-convenience-methods,22628
+schuay,2018-09-14T10:45:04Z,2018-08-31T14:00:03Z,,Upcoming V8 change: removal of sparse array iteration support,22621
+ak239,2018-11-24T21:00:52Z,2018-08-31T02:04:13Z,,src: add node::url::URL::href() method,22610
+piranna,2019-07-16T22:00:44Z,2018-08-29T00:04:11Z,,Align paths in traces,22575
+mscdex,2018-09-21T18:03:30Z,2018-08-27T01:23:11Z,,Feature request: util: isDeprecated(),22543
+sowmyav24,2018-10-24T17:49:44Z,2018-08-25T09:53:02Z,,toLocaleUpperCase() not working for Georgian locale ('ka'),22518
+Ginden,2018-09-25T02:12:05Z,2018-08-24T07:41:40Z,,Change JSON.stringify behaviour on certain builtin objects,22498
+ChALkeR,2019-11-03T21:42:09Z,2018-08-23T21:55:20Z,,Add testcases for all documented safeguards,22492
+vsemozhetbyt,2020-01-11T14:22:32Z,2018-08-21T22:14:25Z,,readline: processing \u2028 and \u2029,22448
+SirR4T,2020-04-01T21:21:25Z,2018-08-21T08:43:50Z,,net: allow typed arrays in .write(),22428
+SirR4T,2020-04-01T21:21:25Z,2018-08-21T08:21:47Z,,stream: allow typed arrays to be written and read,22427
+SirR4T,2020-04-01T21:21:26Z,2018-08-20T11:47:52Z,,dgram: allow typed arrays in .send(),22413
+m0uneer,2019-09-25T10:49:20Z,2018-08-19T14:42:34Z,,Domains created inside `uncaughtException` event handler don't allow catching errors thrown inside the `domain.run()`,22400
+solderjs,2019-10-22T11:34:28Z,2018-08-18T18:21:19Z,,SQL Injection and Timing Attacks using TLS SNI and HTTP Host Header,22389
+medikoo,2019-10-24T09:14:37Z,2018-08-16T12:51:15Z,,Async Hooks do not recognize execution contexts created when processing thenables,22360
+jasnell,2019-12-12T02:08:56Z,2018-08-14T22:32:52Z,,Investigate flaky test-http2-large-file,22327
+plitzenberger,2020-01-03T08:30:59Z,2018-08-14T13:40:59Z,,running webpack under node version higher than v10.1 produces heavy cpu usage and a high number of Idle Wake Ups,22314
+lagden,2018-11-26T22:35:54Z,2018-08-14T00:26:55Z,,openssl_cipher_iv_length,22304
+BridgeAR,2018-12-05T22:11:40Z,2018-08-10T15:07:27Z,,Inconsistent flag & environment variable documentation,22234
+drumwhizz,2018-08-07T16:14:14Z,2018-08-07T13:48:24Z,,"ICU Toolset being compiled by cross compiler, not host compiler",22173
+gabriel-araujjo,2018-08-12T06:26:25Z,2018-08-06T21:02:44Z,,http.get method() ignores query params when passing an URL as first argument,22162
+wallet77,2018-12-24T10:49:26Z,2018-08-06T16:16:09Z,,"fork method, args parameter cannot be null",22154
+ChALkeR,2018-12-21T19:45:40Z,2018-08-05T16:29:26Z,,Buffer documentation on pooling might be misleading,22139
+meihuaping,2018-09-04T15:30:31Z,2018-08-03T03:00:08Z,,Error: Invalid access to memory location.,22099
+jdalton,2019-12-11T10:28:41Z,2018-08-01T18:00:44Z,,Migration from process.binding ,22064
+bounc3-paradise-on-e,2019-12-26T06:24:55Z,2018-08-01T05:28:00Z,,[Feature request] [Windows] Unable to run Node.js in safe mode,22054
+bradennapier,2019-01-24T03:24:39Z,2018-08-01T05:06:29Z,,[async_hooks] - A possible bug or requirement of clarity?  Perhaps another hook needed?,22052
+basyg,2018-07-31T13:49:41Z,2018-07-30T16:07:22Z,,Path.format() does not add a slash,22030
+devsnek,2018-11-16T23:24:08Z,2018-07-29T23:50:27Z,,doc: explaination about flagged feature etiquette needed,22021
+refack,2019-01-22T17:57:57Z,2018-07-27T22:10:37Z,,test: flakiness in building addons with `make`,22006
+computerquip-streamlabs,2018-11-21T07:19:14Z,2018-07-24T20:43:39Z,,Documentation on native addon filenames and `NODE_MODULE`,21961
+logiclrd,2018-11-18T17:48:53Z,2018-07-24T16:26:37Z,,Node hangs when running a stand-alone script with captured output,21960
+mprobst,2018-07-25T11:12:28Z,2018-07-23T09:48:44Z,,Processes created using spawn with a pipe have no /dev/stdin,21941
+nicolasnoble,2018-11-30T08:14:27Z,2018-07-19T21:57:15Z,,NodeJS native modules made difficult by distribution packages.,21897
+nazrhyn,2018-08-09T13:46:56Z,2018-07-17T15:53:27Z,,cluster: forked children eagerly ignore/replace inspect port from cluster settings,21853
+koblas,2020-03-26T07:35:11Z,2018-07-16T21:55:28Z,,"querystring.parse expands ""+"" always, regardless of the parser",21841
+affanshahid,2020-04-09T05:00:08Z,2018-07-15T15:52:45Z,,child_process - windowsHide not working with detached: true,21825
+Andreasjuette,2018-07-15T12:37:19Z,2018-07-15T12:37:19Z,,Update issue templates,21823
+cTn-dev,2019-03-26T22:22:06Z,2018-07-15T12:12:59Z,,setInterval keeps drifting over time,21822
+wiqi-a,2018-07-18T13:24:40Z,2018-07-12T19:39:20Z,,Node.js windows installer not working,21786
+Trott,2020-03-11T05:22:06Z,2018-07-12T17:48:11Z,,investigate flaky test-timers-blocking-callback,21781
+solderjs,2019-12-23T12:35:26Z,2018-07-11T21:48:07Z,,[windows] [readline] [https] Closing input halts event loop,21771
+ghost,2018-07-24T07:13:27Z,2018-07-11T07:11:37Z,,Handle leak when all workers shut down and then restart,21746
+murgatroid99,2018-11-16T23:27:10Z,2018-07-09T22:58:05Z,,Is there a good way to track how recently data was received from the remote end of an http2 session?,21730
+bnb,2018-11-22T17:07:29Z,2018-07-09T16:18:27Z,,Creating a branch of the Docs using RunKit,21723
+Kamil93,2018-09-09T15:56:29Z,2018-07-08T19:16:23Z,,"url.resolve bug with encoded characters like ""%61""",21710
+awwright,2019-01-14T18:13:23Z,2018-07-08T03:43:54Z,,Consistent end of stream handling,21705
+jacogr,2018-11-20T10:15:53Z,2018-07-06T12:53:24Z,,Worker relative path resolution fails with nested folders,21686
+rumkin,2020-03-12T17:49:41Z,2018-07-05T13:25:38Z,,Custom module loader for Workers,21667
+isiahmeadows,2019-12-09T15:24:04Z,2018-07-05T03:36:31Z,,Ability to replace current Node process with another,21664
+vsemozhetbyt,2018-07-05T03:47:53Z,2018-07-04T20:37:42Z,,doc: troubleshooting FAQ?,21663
+jfedyczak,2019-04-25T02:53:41Z,2018-07-04T20:03:58Z,,Feature request: Buffer.readUint(BE|LE) with BigInt support,21662
+Let0s,2019-11-03T21:42:09Z,2018-07-04T12:09:35Z,,Embedding: static nodejs variables are not set to default,21653
+apaprocki,2018-07-06T15:59:24Z,2018-07-03T18:50:39Z,,"configure --tag allows any string, but certain characters break npm",21641
+isiahmeadows,2018-07-01T22:18:54Z,2018-06-30T15:11:48Z,,"Feature request: support a list of custom ""is host object"" symbols for serialization",21609
+ghost,2020-01-02T08:48:41Z,2018-06-29T20:44:45Z,,Crash with Node.js v10.5.0,21591
+schuay,2018-08-16T14:42:00Z,2018-06-28T06:58:55Z,,Breaking change in V8 for Error.prepareStackTrace,21574
+ljharb,2020-04-01T21:21:27Z,2018-06-26T22:23:02Z,,new core modules go under a namespace,21551
+RJVB,2018-11-05T05:24:11Z,2018-06-25T20:26:41Z,,Ninja build mode lacks install target?,21532
+caub,2020-01-12T23:12:51Z,2018-06-23T07:11:43Z,,Promisify server.listen,21482
+rubys,2018-11-04T18:38:05Z,2018-06-22T21:20:55Z,,Replace the use of marked with remark for doc/json generation,21476
+Fishrock123,2020-04-01T21:21:27Z,2018-06-21T19:56:01Z,,async_hooks: add getActiveResources (prototype),21453
+BridgeAR,2020-01-02T13:19:41Z,2018-06-21T14:39:08Z,,Segfault / error while bootstrapping,21442
+nornagon,2019-07-22T09:52:54Z,2018-06-19T20:57:51Z,,Build node with GN,21410
+Slapbox,2018-06-21T15:11:09Z,2018-06-18T22:56:25Z,,"Path.join, argument[0] is coming back undefined when explicitly passed in",21392
+matthiaskrgr,2018-11-25T16:49:52Z,2018-06-18T09:48:18Z,,make test: use after free: parallel/test-cli-node-options,21383
+ChALkeR,2018-10-28T01:13:25Z,2018-06-15T20:16:43Z,,"Inconsistent behavior of path.basename(path, ext)",21358
+seishun,2020-04-01T21:21:28Z,2018-06-15T12:56:24Z,,buffer: runtime-deprecate Buffer constructor everywhere by default,21351
+isiahmeadows,2018-06-17T09:53:31Z,2018-06-15T06:11:57Z,,"Add variant of `fs.create{Read,Write}Stream` to `fs/promises`",21342
+solderjs,2018-06-28T09:36:27Z,2018-06-13T18:52:40Z,,readline with /dev/tty: echos and doesn't close,21319
+refack,2018-10-11T13:34:55Z,2018-06-13T13:31:40Z,,"test,flake: async-hooks/test-fseventwrap flaky on Travis",21310
+fs-eire,2018-06-12T21:08:21Z,2018-06-12T17:51:05Z,,Is well-known symbol the recommended way to build addon?,21291
+ip413,2020-01-31T12:27:13Z,2018-06-11T20:21:10Z,,fs.readFile possible memory leak,21266
+rakatyal,2018-06-06T21:47:43Z,2018-06-06T00:42:28Z,,Class name is missing from Call Stacks when debugging a regular typescript function,21158
+apapirovski,2020-04-01T21:21:28Z,2018-06-05T15:48:10Z,,timers: allow timers to be used as primitives,21152
+bmeck,2020-04-01T21:21:29Z,2018-06-04T21:43:35Z,,Introduce `mime` module,21128
+ORESoftware,2019-12-26T06:50:49Z,2018-06-02T22:36:14Z,,Allow linux users to turn off delayed ACK for TCP,21104
+tingshao,2019-02-14T22:29:54Z,2018-06-01T08:20:21Z,,async_hooks.triggerAsyncId() don't return the expected value in context of the connection callback of net.Server,21078
+mcheshkov,2018-05-28T13:19:48Z,2018-05-25T16:50:21Z,,N-API: pass error from execute callback in napi_create_async_work to main loop,20964
+kakts,2020-04-01T21:21:30Z,2018-05-24T17:45:44Z,2020-04-13T07:08:46Z,test: add test cases for setUnrefTimeout.,20945
+DiegoTUI,2018-05-24T08:33:43Z,2018-05-23T06:23:21Z,,Unable to share ticketKeys in secureContext,20908
+Trott,2019-11-03T21:42:09Z,2018-05-15T17:48:28Z,,flaky: `parallel/test-http2-*` on Windows,20750
+episage,2018-12-01T16:39:20Z,2018-05-09T12:05:13Z,,Inconsistency between production version v10.0.0 and GitHub code (readable-stream),20624
+benjamingr,2020-01-04T03:07:41Z,2018-05-03T21:09:32Z,,"""Just My Code"" for stack traces?",20505
+sheerun,2019-03-25T19:20:59Z,2018-04-30T16:41:57Z,,NODE_EXTRA_CA_CERTS cannot be set in code or relative,20432
+aduh95,2019-12-05T18:33:43Z,2018-04-29T00:07:50Z,,Terminate process on unhandled promise rejection,20392
+ggoodman,2020-01-03T00:19:15Z,2018-04-24T19:06:11Z,,https?.Server.keepAliveTimeout introduced boundary condition that results in client-side socket hang-ups,20256
+ghost,2020-01-30T13:35:32Z,2018-04-20T22:06:40Z,,Documentation for Buffer#includes is not accurate,20181
+mafintosh,2018-05-30T19:17:09Z,2018-04-17T10:58:54Z,,streams: event clarification and improvements,20096
+kapouer,2018-05-15T15:34:27Z,2018-04-16T09:08:28Z,,process.release.headersUrl: distributors might want to provide an absolute file url,20066
+hashseed,2018-12-05T13:29:49Z,2018-04-15T19:57:45Z,,vm module should expose V8::ScriptCompiler::CreateCodeCache,20052
+vsemozhetbyt,2018-05-09T11:03:27Z,2018-04-13T23:40:53Z,,build: .msi installer starts too long on Windows when Node.js was already installed,20020
+gireeshpunathil,2018-05-31T14:00:01Z,2018-04-13T08:11:07Z,,Flexible stdios for IPC,20000
+mafintosh,2018-04-12T19:49:43Z,2018-04-12T16:09:59Z,,Missing http2 error handling,19978
+iSkore,2018-04-24T09:16:45Z,2018-04-10T11:20:18Z,,add HPE_INVALID_METHOD to documentation,19914
+sreeees,2018-04-08T14:03:35Z,2018-04-07T19:28:15Z,,TLS ClientCertEngine option does not invoke engine_load_ssl_client_cert interface in engine.so,19874
+mklement0,2019-11-08T11:55:37Z,2018-04-05T13:29:25Z,,Accessing stdin with file descriptor 0 on Windows causes exception if there's no input / if stdin is closed,19831
+m-a-r-c-e-l-i-n-o,2018-04-03T04:09:43Z,2018-04-03T00:08:57Z,,Missing useful debug information for Dynamic Import errors,19763
+spencerwilson,2018-09-03T06:41:39Z,2018-04-01T18:42:38Z,,#NAME?,19733
+laino,2018-11-18T12:30:21Z,2018-04-01T14:36:49Z,,net: Don't unlink unix socket on server.close(),19729
+hashseed,2018-10-26T13:44:24Z,2018-03-27T11:07:33Z,,Support building with win-clang,19630
+allexcd,2020-01-02T07:52:08Z,2018-03-22T19:21:30Z,,Files get truncated during bootstrapping,19535
+bzoz,2018-08-20T08:39:23Z,2018-03-19T16:56:54Z,,"win, cluster: no callback called after write",19452
+laino,2019-05-13T18:08:04Z,2018-03-18T22:35:12Z,,child_process: 'close' not emitted after .disconnect() in parent process,19433
+thecodingdude,2019-12-16T16:45:56Z,2018-03-16T16:40:34Z,,Implement window.fetch into core,19393
+MylesBorins,2020-04-08T15:36:25Z,2018-03-13T00:42:11Z,,Adding Websocket support to core,19308
+vsemozhetbyt,2018-03-15T05:52:08Z,2018-03-10T13:59:11Z,,inspector: breakpoints and letter case in script path argument,19273
+milesj,2020-03-17T23:07:43Z,2018-03-08T05:12:03Z,,child_process stdout being truncated,19218
+ORESoftware,2018-06-13T21:21:06Z,2018-03-07T17:37:12Z,,feature request - listen for foreign/alien/non-child process change/exit,19207
+MSLaguana,2018-03-06T18:40:34Z,2018-03-06T17:01:18Z,,Questions/clarifications about vm context behavior,19171
+jasnell,2018-03-02T13:34:14Z,2018-02-28T16:43:36Z,,[Tracking] loop/threadpool stats from libuv,19063
+addaleax,2020-01-06T22:27:16Z,2018-02-28T14:40:09Z,,Merge streams handling code for http2 streams & net.Socket,19060
+trivikr,2018-12-22T00:54:00Z,2018-02-28T13:39:25Z,,Error while running coverage,19057
+JacksonTian,2018-11-16T21:10:10Z,2018-02-26T17:09:19Z,,Deprecating the process._startProfilerIdleNotifier & process._stopProfilerIdleNotifier methods,19009
+prog1dev,2019-12-30T11:19:49Z,2018-02-25T09:07:50Z,,Getting warnings in console on fresh build,18983
+bnoordhuis,2019-04-04T17:45:50Z,2018-02-22T10:42:51Z,,repl: no RegExp side effects,18931
+jorangreef,2019-02-11T10:18:23Z,2018-02-21T12:06:37Z,,crypto.alloc() for encryption key memory management,18896
+hashseed,2018-10-26T04:52:02Z,2018-02-15T12:41:43Z,,Should internal modules be affected by monkey-patching?,18795
+msft-cwells,2018-04-25T00:16:52Z,2018-02-13T19:48:00Z,,Debuggers cannot break into certain looping node processes,18764
+bnoordhuis,2019-11-03T21:42:09Z,2018-02-13T00:02:05Z,,build: investigate jumbo builds,18742
+AndreasMadsen,2018-09-10T10:57:12Z,2018-02-06T15:47:42Z,,listening to sigint don't exit nicely,18600
+TimothyGu,2018-06-07T21:05:35Z,2018-02-05T02:24:01Z,,Not fully linked vm.Module throws errors from C++ when instantiated,18571
+seishun,2020-01-02T23:51:23Z,2018-02-04T13:57:31Z,,Investigate non-Latin-1 build file path on Windows,18560
+zbjornson,2018-02-06T08:35:36Z,2018-02-02T08:06:00Z,,Piping a sync or process.nextTick'ed stream to an HTTP res prevents events from firing,18521
+jdalton,2019-12-11T10:30:07Z,2018-01-22T21:45:13Z,,"require("".\\"") doesn't resolve index.js on Windows",18299
+bmeck,2020-01-06T14:57:51Z,2018-01-18T16:00:06Z,,RFC: Per Package Loader Hooks,18233
+mcollina,2019-07-05T21:19:15Z,2018-01-18T10:04:44Z,,Add an entry to the module loading paths dynamically,18229
+yosuke-furukawa,2020-03-28T08:25:36Z,2018-01-18T09:50:42Z,,util.isDeepStrictEqual would be better to return false to compare WeakMap/WeakSet,18227
+hashseed,2019-02-05T16:22:05Z,2018-01-15T14:28:00Z,,ABI compatibility tool,18159
+iSkore,2018-11-04T18:47:50Z,2018-01-12T13:13:02Z,,Fatal error when attempting to (wrongly) set incoming packet encoding,18118
+bnoordhuis,2019-11-03T21:42:09Z,2018-01-10T09:42:49Z,,tracing: etw/perf/lttng/etc multi-isolate support,18074
+searls,2019-12-11T10:29:10Z,2018-01-05T17:55:53Z,,Feature request: add `preserveSymlinks` option to `require.resolve()`,18009
+bnoordhuis,2019-02-18T00:04:12Z,2018-01-01T12:12:27Z,,build: shared library should have noexecstack set,17933
+kapouer,2018-04-26T20:44:33Z,2017-12-29T00:35:46Z,,parallel/test-fs-utimes y2k38 test fails on mips(el),17909
+greggman,2019-03-24T23:51:57Z,2017-12-28T10:44:09Z,,path.dirname docs don't cover windows path edge cases,17896
+nylen,2020-03-17T01:40:02Z,2017-12-26T21:01:35Z,,`process.throwDeprecation` hides original error stack,17871
+Mickael-van-der-Beek,2019-10-30T12:47:30Z,2017-12-24T17:04:53Z,,No DNS Search Domain support in C-Ares calls,17850
+ghost,2018-01-01T00:22:53Z,2017-12-21T03:16:38Z,,Inconsistent behavior with fs module accross platforms,17801
+bmeck,2020-02-15T10:46:59Z,2017-12-14T02:38:59Z,,REPL Await invalidates `const`,17669
+TimothyGu,2018-11-09T21:50:52Z,2017-12-03T00:54:53Z,,Use %TypedArray%.prototype.subarray for Buffer.prototype.slice,17431
+SamuelSchepp,2020-01-02T13:06:23Z,2017-11-22T20:52:23Z,,Debugger crashes with assertion failure while using Chrome DevTools and remote debug,17259
+AndreasMadsen,2018-08-31T20:27:53Z,2017-11-19T23:05:22Z,,domain migration to async_hooks,17143
+hashseed,2020-02-24T07:27:27Z,2017-11-15T20:02:26Z,,RFC: speeding up Node.js startup using V8 snapshot,17058
+sholladay,2018-11-04T19:07:59Z,2017-11-03T09:59:26Z,,host vs hostname inconsistency,16712
+pitaj,2018-03-30T08:31:42Z,2017-10-29T21:03:02Z,,Inconsistent error codes across platforms when writing to read-only (444) files,16596
+seishun,2018-04-13T09:01:18Z,2017-10-27T13:38:39Z,,IPC with fd>2 doesn't work,16553
+seishun,2018-04-13T15:05:16Z,2017-10-25T14:03:10Z,,Accidentally writing garbage to the IPC channel blows up parent in debug build,16491
+bmeck,2020-02-28T12:55:28Z,2017-10-12T18:46:10Z,,Implement createObjectURL/Blob from File API,16167
+mirekdlugosz,2020-01-02T13:06:38Z,2017-10-12T14:30:05Z,,Performance regression in v6 and v8 compared to v4,16164
+chrisdickinson,2019-02-10T02:41:49Z,2017-10-09T05:37:20Z,,Moving from domains to async_hooks: plans for addressing common resource pools,16098
+devinivy,2020-01-02T23:35:48Z,2017-10-01T18:53:24Z,,Handing spawn() stdio as socket wont duplex properly,15714
+martinheidegger,2018-10-02T09:49:51Z,2017-09-26T00:33:58Z,,http: deal with the lack of http proxy support in node.js core.,15620
+csvan,2020-03-18T23:53:27Z,2017-09-07T17:27:15Z,,[Feature] Discussion around default package manager choice,15244
+davewasmer,2020-03-08T14:44:34Z,2017-08-22T00:02:55Z,,Add `mainDir` to module resolution algorithm,14970
+TimothyGu,2018-11-04T09:29:46Z,2017-08-11T00:41:45Z,,vm.runInThisContext is bound to the top context,14757
+tniessen,2019-09-16T23:07:11Z,2017-08-09T14:52:54Z,,Tracking Issue: DNS features requiring c-ares support,14713
+streamich,2019-12-30T09:13:01Z,2017-07-31T13:34:30Z,,errors.js module,14554
+ChALkeR,2019-08-15T10:00:18Z,2017-07-29T16:38:09Z,,Distrust Symantec root certs,14537
+pekkanikander,2020-04-01T21:21:31Z,2017-07-26T12:03:14Z,,test/dgram: Add support for IPv6 link local scope IDs in received UDP datagrams,14500
+refack,2019-11-03T21:42:09Z,2017-07-10T19:11:09Z,,doc: better document `--shared` build,14158
+shaunc,2019-12-30T08:47:39Z,2017-07-09T18:46:19Z,,HttpServerResponse.setDefaultEncoding(),14146
+elad,2018-08-12T06:56:58Z,2017-07-05T12:56:31Z,,DNS server caching breaks changing networks in runtime,14086
+AjaniBilby,2018-04-30T09:28:24Z,2017-07-03T00:38:36Z,,Child-Process: file-descriptor auto-closes when it shouldn't without triggering close events.,14046
+DuanPengfei,2018-11-19T09:52:43Z,2017-06-23T06:39:31Z,,"path.posix.resolve, path.posix.relative return wrong path on Windows",13887
+doodadjs,2018-06-10T15:28:24Z,2017-06-20T22:11:02Z,,Windows installer: Per user install (feature request),13830
+usergenic,2018-06-02T02:55:58Z,2017-06-14T18:17:21Z,,path.posix.relative returns different results for *nix and Windows versions of node,13683
+domenic,2018-06-07T10:00:25Z,2017-06-13T04:41:32Z,,"Discussion of implementing the Encoding Standard with ICU, and associated web platform tests",13646
+tamaroth,2018-11-15T21:56:32Z,2017-06-09T07:45:26Z,,vcbuild does not always generate field <TargetMachine> in project files.,13569
+ferencbeutel4711,2018-06-14T15:16:36Z,2017-06-08T09:45:10Z,,"When using pipes other than stdin, stdout, stderr for streaming data into a child process, ENOTCONN error is thrown",13542
+TimothyGu,2019-12-16T15:00:41Z,2017-04-27T00:13:56Z,,Relative URLs in WHATWG URL API,12682
+segrey,2020-04-10T17:49:43Z,2017-04-26T12:30:27Z,,Allow to suppress --inspect hint,12665
+vsemozhetbyt,2020-01-11T13:49:48Z,2017-04-23T00:48:54Z,,readline: prompt opt-out behavior,12606
+refack,2019-01-26T15:36:47Z,2017-04-15T12:18:29Z,,"build,windows: solve build file disparity",12425
+kanongil,2020-02-22T08:55:03Z,2017-04-11T12:09:49Z,,Missing response for certain POST requests,12339
+refack,2019-12-05T08:36:18Z,2017-04-10T17:42:44Z,,build: refactor vcbuild.bat,12310
+refack,2019-05-03T12:57:02Z,2017-04-08T12:51:13Z,,build: make build faster (at least on Windows),12281
+bminer,2019-01-07T12:49:17Z,2017-03-28T22:49:20Z,,Child process inheriting all stdio being SIGKILL-ed messes up terminal,12101
+hashseed,2019-11-13T16:17:44Z,2017-03-17T08:05:10Z,,Node.js' internal scripts should be hidden in the inspector.,11893
+hashseed,2018-09-15T05:32:17Z,2017-03-17T07:53:42Z,,node --inspect --debug-brk should break before the script even executes,11892
+jhnns,2019-05-08T16:52:05Z,2017-02-23T17:54:03Z,,Check cwd before spawning child process,11520
+novemberborn,2020-02-21T17:10:40Z,2017-02-16T17:22:30Z,,"On macOS, os.tmpdir() is not a real path",11422
+zivbr,2018-10-17T04:22:41Z,2017-01-18T12:17:09Z,,'end' event not called on connected socket wrapped with tls,10871
+isaacs,2020-01-02T05:24:48Z,2017-01-17T00:22:15Z,,What will Domain be replaced with?,10843
+trendsetter37,2018-05-29T06:24:37Z,2017-01-15T15:24:30Z,,child_process: fork does not accept null or undefined args array,10819
+nbdd0121,2018-10-19T01:07:02Z,2016-12-31T10:27:15Z,,tls: secureConnect event will not be emitted if TLSSocket is created via constructor instead of tls.connect,10555
+ChALkeR,2018-05-28T14:03:00Z,2016-11-25T13:31:17Z,,"Feature proposal: buffer.convert(value[, fromEnc], toEnc)",9797
+LucaFranceschini,2019-11-03T21:42:09Z,2016-11-21T16:51:07Z,,Poll phase documentation,9720
+indutny,2018-11-04T09:06:43Z,2016-11-15T02:32:25Z,,Detailed report for async_wrap in `process.memoryUsage()`,9612
+medikoo,2019-12-18T19:25:21Z,2016-11-03T08:12:26Z,,Debugger doesn't work for processes which fork other processes,9435
+NeoRaider,2018-03-06T10:01:02Z,2016-10-17T17:54:24Z,,Build fails when the path to the build root is too long,9137
+Daniel15,2019-07-05T21:13:14Z,2016-10-09T00:03:49Z,,ENOENT thrown when trying to create a file with an invalid filename,8987
+StefanScherer,2019-12-13T12:51:43Z,2016-10-02T13:06:45Z,,Windows Container: fs.realpathSync() is broken on shared volumes,8897
+jasonmcaffee,2019-10-26T20:41:13Z,2016-09-30T21:45:21Z,,zlib deflate results in a memory leak,8871
+mcollina,2019-10-23T19:45:16Z,2016-09-18T11:37:12Z,,doc: guide/topic on how to use streams,8646
+olalonde,2018-11-04T09:12:34Z,2016-09-17T00:16:21Z,,"Buffer.from(str, encoding) silently ignores decoding errors",8569
+addaleax,2020-01-01T15:19:05Z,2016-09-11T16:39:59Z,,help() or similar for the REPL,8493
+Hesulan,2019-06-15T09:22:40Z,2016-09-08T17:39:38Z,,http.ServerResponse.writeHead() can be called multiple times for a single response,8446
+Morfent,2018-11-09T01:09:31Z,2016-09-08T10:46:46Z,,Hotpatching modules leaks memory,8443
+Ginden,2019-02-20T19:24:09Z,2016-08-30T17:35:35Z,,Should Node.js standard library throw custom Error subclasses?,8342
+polybuildr,2020-03-16T04:04:46Z,2016-08-28T12:12:35Z,,Missing `new` in Set constructor makes variable defined using `let` unusable,8309
+bnoordhuis,2019-11-03T21:42:09Z,2016-08-15T11:22:49Z,,tls: misparsed URI subject alternative name?,8108
+jannicars,2018-10-20T13:52:53Z,2016-08-11T17:54:25Z,,TCP Fast Open,8066
+loilo,2019-12-14T15:29:15Z,2016-08-02T22:17:02Z,,"Feature request: Inform the ""line"" event on a Readline interface of the type of end-of-line input",7952
+leppie,2018-11-04T09:25:01Z,2016-07-26T19:07:04Z,,Stop the installer deleting my symlink for AppData\Roaming\npm,7882
+kapouer,2018-10-17T19:33:17Z,2016-07-24T10:54:23Z,,TCP_DEFER_ACCEPT option for http server ?,7861
+cswl,2020-01-02T23:22:36Z,2016-07-20T03:54:08Z,,api to get arm architecture of the binary as in the download page...,7803
+eljefedelrodeodeljefe,2018-07-16T16:23:02Z,2016-04-28T22:47:27Z,,stdio buffered writes (chunked) issues & process.exit() truncation,6456
+ChALkeR,2018-11-10T02:17:25Z,2016-04-25T21:03:08Z,,stdout/stderr buffering considerations,6379
+inversion,2018-12-28T09:26:28Z,2016-04-04T11:15:17Z,,stream: socket.setEncoding(null) to receive binary Buffers rather than strings has no effect,6038
+kexuelou,2018-12-24T01:43:45Z,2016-03-22T01:57:25Z,,how to include v8dbg_ symbols in the windows build,5839
+piranna,2019-02-06T21:16:24Z,2016-03-06T00:25:17Z,,Losing keystrokes when using tty.ReadStream() over process.stdin,5574
+cpitclaudel,2019-09-04T22:03:08Z,2016-01-14T18:23:57Z,,Surprising I/O behaviour on Windows,4697
+thomas-riccardi,2018-10-17T17:14:27Z,2015-12-10T18:51:11Z,,"HTTP Server request.setTimeout(n, cb) does sometimes call socket.destroy(), contradicting documentation",4233
+geronime,2019-07-12T19:11:13Z,2015-11-27T13:03:49Z,,extended keepalive configuration on socket,4048
+rbuckton,2018-05-28T19:09:12Z,2015-10-30T01:34:01Z,,No ETW events for function calls,3597
+jorangreef,2019-07-22T14:29:02Z,2015-08-28T16:46:09Z,,fs.utimes does not change birthtime on Windows,2600
+ivan-kleshnin,2019-05-23T19:04:20Z,2015-06-17T08:54:39Z,,Improve Path.parse / Path.format combo,1999
+domenic,2020-01-06T17:42:12Z,2015-05-28T18:31:59Z,,Accept ArrayBuffer (and typed array/data view?) anywhere Buffer is allowed in the API,1826
+domenic,2019-11-29T17:06:49Z,2015-02-15T21:57:32Z,,vm: references to context inside objects are not === the original context,855
+jshkurti,2018-04-03T22:13:55Z,2015-02-10T16:45:47Z,,Chunked stdout/stderr drops writes if terminated early.,784
+jonathanong,2019-12-26T15:31:22Z,2015-01-31T00:58:15Z,,make crypto functions execute in the threadpool asynchronously,678
+zenoamaro,2019-03-02T15:33:41Z,2015-01-18T19:42:03Z,,`os.networkInterfaces` does not list all interfaces. ,498
+vkurchatkin,2019-10-16T00:20:25Z,2015-01-15T16:18:56Z,,Cleanup `_writableState` and `_readableState` access across codebase,445
